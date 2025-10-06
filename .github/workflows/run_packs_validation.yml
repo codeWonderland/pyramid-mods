@@ -19,7 +19,7 @@ jobs:
           ERROR_FOUND=0
 
           # Define the allowed file extensions
-          ALLOWED_EXTENSIONS="png jpg jpeg webp"
+          ALLOWED_EXTENSIONS="png jpg jpeg"
 
           # Define the allowed filename pattern regex (starts with b, p, s, or c, followed by digits)
           FILENAME_PATTERN="^(b|p|s|c)[0-9]+$"
@@ -69,12 +69,12 @@ jobs:
             # This is the FIX: Brace expansion is now explicit and unquoted in the loop header.
             # We must use 'set --' to collect files and avoid the problematic expansion behavior
             # when no files are found.
-            set -- "${GAME_FOLDER}"*.{png,jpg,jpeg,webp}
+            set -- "${GAME_FOLDER}"*.{png,jpg,jpeg}
 
             # Loop through the arguments collected by 'set --'
             for FILE; do
               # Check if the file is the literal glob pattern itself (only happens if nullglob is off or fails)
-              if [[ "$FILE" == "${GAME_FOLDER}*.{png,jpg,jpeg,webp}" ]]; then
+              if [[ "$FILE" == "${GAME_FOLDER}*.{png,jpg,jpeg}" ]]; then
                 continue # Skip the literal pattern if no files were found (safe fallback)
               fi
 
