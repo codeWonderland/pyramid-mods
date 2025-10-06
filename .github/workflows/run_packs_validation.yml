@@ -1,0 +1,104 @@
+name: Packs Validation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-packs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Run Image Naming Check
+        id: check
+        run: |
+          # Set a flag for errors
+          ERROR_FOUND=0
+
+          # Define the allowed file extensions
+          ALLOWED_EXTENSIONS="png jpg jpeg webp"
+
+          # Define the allowed filename pattern regex (starts with b, p, s, or c, followed by digits)
+          FILENAME_PATTERN="^(b|p|s|c)[0-9]+$"
+
+          # Function to check if a base filename (e.g., 'b1') exists with ANY of the allowed extensions
+          check_required_file() {
+            local base_name="$1"
+            local folder="$2"
+
+            for ext in $ALLOWED_EXTENSIONS; do
+              if [ -f "${folder}${base_name}.${ext}" ]; then
+                return 0
+              fi
+            done
+            return 1
+          }
+
+          # --- BEGIN MAIN CHECK ---
+
+          # Find all folders directly inside PACKS
+          for GAME_FOLDER in PACKS/*/; do
+            if [ ! -d "$GAME_FOLDER" ]; then
+              continue
+            fi
+
+            GAME_NAME=$(basename "$GAME_FOLDER")
+            echo "::group::Checking Folder: $GAME_NAME"
+
+            # 1. Check for required files (b1 and p1 with ANY allowed extension)
+            REQUIRED_MISSING=0
+            if ! check_required_file "b1" "$GAME_FOLDER"; then
+              echo "❌ Error in $GAME_NAME: Missing required file 'b1' with any allowed extension."
+              REQUIRED_MISSING=1
+            fi
+            if ! check_required_file "p1" "$GAME_FOLDER"; then
+              echo "❌ Error in $GAME_NAME: Missing required file 'p1' with any allowed extension."
+              REQUIRED_MISSING=1
+            fi
+            if [ $REQUIRED_MISSING -eq 1 ]; then
+              ERROR_FOUND=1
+            fi
+
+            # 2. Check for disallowed files
+            # The 'shopt -s nullglob' must be active for this part!
+            shopt -s nullglob
+
+            # This is the FIX: Brace expansion is now explicit and unquoted in the loop header.
+            # We must use 'set --' to collect files and avoid the problematic expansion behavior
+            # when no files are found.
+            set -- "${GAME_FOLDER}"*.{png,jpg,jpeg,webp}
+
+            # Loop through the arguments collected by 'set --'
+            for FILE; do
+              # Check if the file is the literal glob pattern itself (only happens if nullglob is off or fails)
+              if [[ "$FILE" == "${GAME_FOLDER}*.{png,jpg,jpeg,webp}" ]]; then
+                continue # Skip the literal pattern if no files were found (safe fallback)
+              fi
+
+              FULL_FILENAME=$(basename "$FILE")
+              FILENAME_NO_EXT="${FULL_FILENAME%.*}"
+
+              # Check if the extracted name matches the allowed pattern
+              if ! [[ "$FILENAME_NO_EXT" =~ $FILENAME_PATTERN ]]; then
+                echo "❌ Error in $GAME_NAME: Disallowed filename found: $FULL_FILENAME"
+                ERROR_FOUND=1
+              else
+                echo "✅ Allowed: $FULL_FILENAME"
+              fi
+            done
+
+            shopt -u nullglob # Turn off nullglob
+
+            echo "::endgroup::"
+          done
+
+          # Exit with an error code if any error was found
+          if [ $ERROR_FOUND -eq 1 ]; then
+            echo "::error::One or more image file naming conventions were violated. See logs for details."
+            exit 1
+          else
+            echo "🎉 All image files adhere to the naming convention."
+          fi
