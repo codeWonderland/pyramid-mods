@@ -56,12 +56,14 @@ jobs:
         run: |
           RESIZED_ANY=false
 
-          # Combine all changed files into a single variable
-          CHANGED_FILES="${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.renamed_files }}"
+          # Combine outputs into a single string.
+          # The key change: use 'echo' and 'sed' to clean up excess whitespace
+          CHANGED_FILES=$(echo "${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.renamed_files }}" | sed -E 's/\s+/ /g; s/^ | $//g')
 
-          # Use a 'for' loop to iterate over the list of files. This avoids subshell issues.
+          # Use a 'for' loop to iterate over the list of files.
+          # We must use quotes around $FILE inside the loop to handle spaces in file names correctly.
           for FILE in $CHANGED_FILES; do
-            # Check if the file exists and is a regular file
+            # The -f check MUST succeed with the correct path, which now has no leading/trailing spaces.
             if [ -f "$FILE" ]; then
               echo "Processing $FILE..."
 
@@ -73,16 +75,16 @@ jobs:
               # Check if the dimensions are not exactly 350x500
               if [ "$DIMENSIONS" != "350x500" ]; then
                 echo "  -> Resizing from $DIMENSIONS to 350x500"
-                # Resize the image and overwrite the original file
                 convert "$FILE" -resize "350x500!" -quality 85 -strip "$FILE"
                 RESIZED_ANY=true
               else
                 echo "  -> Already 350x500. Skipping."
               fi
+            else
+              echo "Error: File not found or not a regular file: $FILE"
             fi
           done
 
-          # Set an output to control the next step (committing changes)
           echo "resized_any=$RESIZED_ANY" >> "$GITHUB_OUTPUT"
         id: resize-process
 
