@@ -42,7 +42,7 @@ jobs:
 
       - name: 🔍 Find Changed Images in PACKS
         id: changed-files
-        uses: tj-actions/changed-files@v44
+        uses: tj-actions/changed-files@v46
         with:
           files: 'PACKS/**.{png,jpg,jpeg,webp}'
           # Filters to only files that were added, modified, or renamed.
