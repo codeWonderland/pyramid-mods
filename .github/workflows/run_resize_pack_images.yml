@@ -64,6 +64,8 @@ jobs:
               # Get the current dimensions using identify (part of ImageMagick)
               DIMENSIONS=$(identify -format "%wx%h" "$FILE")
 
+              echo "Dimensions: $DIMENSIONS"
+
               # Check if the dimensions are not exactly 350x500
               if [ "$DIMENSIONS" != "350x500" ]; then
                 echo "  -> Resizing from $DIMENSIONS to 350x500"
