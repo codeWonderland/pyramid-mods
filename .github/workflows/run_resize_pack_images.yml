@@ -55,40 +55,49 @@ jobs:
         run: |
           RESIZED_ANY=false
 
-          # 1. Combine all file lists, separated by a single space, and clean up excess whitespace.
-          # The list will look like: "PACKS/game name/file1.png PACKS/other/file2.jpg"
-          CLEAN_SPACE_LIST=$(echo "${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.renamed_files }}" | sed -E 's/\s+/ /g; s/^ | $//g')
+          # 1. Combine all file lists into a single string
+          ALL_CHANGED_FILES=" ${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.renamed_files }} "
 
-          # 2. Convert the space-separated list into a newline-separated list for safe processing.
-          # This variable now contains: "PACKS/game name/file1.png\nPACKS/other/file2.jpg"
-          NEWLINE_LIST=$(echo "$CLEAN_SPACE_LIST" | tr ' ' '\n' | grep .)
 
-          # 3. Process the newline-separated list using a 'while read' loop.
-          # We set IFS=$'\n' temporarily for the read command to handle file names with spaces correctly.
-          # The loop reads the $NEWLINE_LIST string line-by-line using a heredoc (<<<).
+          # 2. Use 'sed' to replace the space that separates files with a NULL byte (\x00).
+          NEWLINE_LIST=$(
+          echo "$ALL_CHANGED_FILES" |
+          sed -E '
+            s/ +PACKS\//\nPACKS\//g;  # Replace one or more spaces followed by PACKS/ with a NULL byte followed by PACKS/
+            s/^\x00//;                # Remove leading NULL byte (if any)
+            s/^ *| *$//g              # Remove any remaining leading/trailing spaces
+          '
+          )
+
+          echo "Processing files from NULL-delimited list..."
+          echo "$NEWLINE_LIST"
+
+          # 3. Process the null-delimited list using a 'while read' loop.
           while IFS=$'\n' read -r FILE; do
 
-            # Check if the file exists and is a regular file.
-            if [ -f "$FILE" ]; then
-              echo "Processing $FILE..."
+          # Check if the file exists and is a regular file.
+          # Double quotes around $FILE are critical to preserve spaces in the path.
+          if [ -f "$FILE" ]; then
+            echo "Processing '$FILE'..."
 
-              # Get the current dimensions
-              DIMENSIONS=$(identify -format "%wx%h" "$FILE")
+            # Get the current dimensions
+            DIMENSIONS=$(identify -format "%wx%h" "$FILE")
 
-              echo "Dimensions: $DIMENSIONS"
+            echo "Dimensions: $DIMENSIONS"
 
-              # Check if the dimensions are not exactly 350x500
-              if [ "$DIMENSIONS" != "350x500" ]; then
-                echo "  -> Resizing from $DIMENSIONS to 350x500"
-                # Resize the image and overwrite the original file
-                convert "$FILE" -resize "350x500!" -quality 85 -strip "$FILE"
-                RESIZED_ANY=true
-              else
-                echo "  -> Already 350x500. Skipping."
-              fi
+            # Check if the dimensions are not exactly 350x500
+            if [ "$DIMENSIONS" != "350x500" ]; then
+              echo "  -> Resizing from $DIMENSIONS to 350x500"
+              # Resize the image and overwrite the original file
+              # convert "$FILE" -resize "350x500!" -quality 85 -strip "$FILE"
+              RESIZED_ANY=true
             else
-              echo "Error: File not found or not a regular file: '$FILE'"
+              echo "  -> Already 350x500. Skipping."
             fi
+          else
+            # This error should only occur if the path is genuinely bad
+            echo "Error: File not found or not a regular file: '$FILE'"
+          fi
 
           done <<< "$NEWLINE_LIST"
 
