@@ -57,7 +57,7 @@ jobs:
           RESIZED_ANY=false
 
           # Loop through each changed file detected by the previous step
-          echo "${{ steps.changed-files.outputs.modified_files }}" "${{ steps.changed-files.outputs.added_files }}" "${{ steps.changed-files.outputs.renamed_files }}" | tr ' ' '\n' | while read FILE; do
+          echo "${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.renamed_files }}" | tr ' ' '\n' | grep . | while read FILE; do
             if [ -f "$FILE" ]; then
               echo "Processing $FILE..."
 
