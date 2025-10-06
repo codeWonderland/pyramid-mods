@@ -56,14 +56,22 @@ jobs:
         run: |
           RESIZED_ANY=false
 
-          # Combine outputs into a single string.
-          # The key change: use 'echo' and 'sed' to clean up excess whitespace
-          CHANGED_FILES=$(echo "${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.renamed_files }}" | sed -E 's/\s+/ /g; s/^ | $//g')
+          # 1. Combine all changed file paths, separated by a single space.
+          # We use 'echo' and 'sed' to sanitize the list, ensuring only single spaces separate files.
+          CHANGED_FILES_LIST=$(echo "${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.renamed_files }}" | sed -E 's/\s+/ /g; s/^ | $//g')
 
-          # Use a 'for' loop to iterate over the list of files.
-          # We must use quotes around $FILE inside the loop to handle spaces in file names correctly.
-          for FILE in $CHANGED_FILES; do
-            # The -f check MUST succeed with the correct path, which now has no leading/trailing spaces.
+          # 2. Use 'tr' to convert the single-space separator into a newline character ('\n').
+          # This creates a list where each file path is on its own line.
+          FILE_LIST_WITH_NEWLINES=$(echo "$CHANGED_FILES_LIST" | tr ' ' '\n')
+
+          # 3. Temporarily change the Internal Field Separator (IFS) to only be a newline.
+          # This ensures the 'for' loop treats the ENTIRE line (including spaces) as a single file path.
+          IFS=$'\n'
+
+          # 4. Loop over the newline-separated list.
+          for FILE in $FILE_LIST_WITH_NEWLINES; do
+            # Check if the file exists and is a regular file.
+            # Quotes around $FILE are critical here to preserve spaces in the name.
             if [ -f "$FILE" ]; then
               echo "Processing $FILE..."
 
@@ -75,6 +83,7 @@ jobs:
               # Check if the dimensions are not exactly 350x500
               if [ "$DIMENSIONS" != "350x500" ]; then
                 echo "  -> Resizing from $DIMENSIONS to 350x500"
+                # Resize the image and overwrite the original file
                 convert "$FILE" -resize "350x500!" -quality 85 -strip "$FILE"
                 RESIZED_ANY=true
               else
@@ -85,6 +94,9 @@ jobs:
             fi
           done
 
+          # NOTE: The IFS change is automatically reverted when the 'run' shell exits.
+
+          # Set an output to control the next step (committing changes)
           echo "resized_any=$RESIZED_ANY" >> "$GITHUB_OUTPUT"
         id: resize-process
 
