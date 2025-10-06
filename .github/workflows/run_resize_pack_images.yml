@@ -56,14 +56,14 @@ jobs:
           RESIZED_ANY=false
 
           # 1. Combine all file lists into a single string
-          ALL_CHANGED_FILES=" ${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.renamed_files }} "
+          ALL_CHANGED_FILES="${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.renamed_files }}"
 
 
-          # 2. Use 'sed' to replace the space that separates files with a NULL byte (\x00).
+          # 2. Use 'sed' to replace the space that separates files with a newline character
           NEWLINE_LIST=$(
           echo "$ALL_CHANGED_FILES" |
           sed -E '
-            s/ +PACKS\//\nPACKS\//g;  # Replace one or more spaces followed by PACKS/ with a NULL byte followed by PACKS/
+            s/ +PACKS\//\nPACKS\//g;  # Replace one or more spaces followed by PACKS/ with a newline character followed by PACKS/
             s/^\x00//;                # Remove leading NULL byte (if any)
             s/^ *| *$//g              # Remove any remaining leading/trailing spaces
           '
@@ -100,24 +100,18 @@ jobs:
           fi
 
           done <<< "$NEWLINE_LIST"
-
-          # Set an output to control the next step (committing changes)
-          echo "resized_any=$RESIZED_ANY" >> "$GITHUB_OUTPUT"
         id: resize-process
 
-      - name: 💾 Commit and Push Resized Images
-        # Only run this step if the previous step actually performed a resize
-        if: steps.resize-process.outputs.resized_any == 'true'
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'ci: Auto-resize images in PACKS folder'
-          branch: ${{ github.head_ref || github.ref_name }} # Works for both PR and Push
-          # Specify files to commit (just in case other files were modified in previous steps)
-          file_pattern: PACKS/**
-          commit_user_name: GitHub Actions Bot
-          commit_user_email: actions@github.com
-          commit_author: GitHub Actions Bot <actions@github.com>
-
       - name: ✅ Check for Changes
-        if: steps.resize-process.outputs.resized_any == 'true'
-        run: echo "Resizing completed and committed. Changes pushed back to the branch."
+        id: git-check
+        run: echo "modified=$(if git diff-index --quiet HEAD --; then echo "false"; else echo "true"; fi)" >> $GITHUB_OUTPUT
+
+      - name: 💾 Commit and Push Resized Images
+        if: steps.git-check.outputs.modified == 'true'
+        run: |
+          git config --global user.name 'codeWonderland Bot'
+          git config --global user.email 'development+bot@codewonder.land'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git commit -am "Fixing Formatting Issues"
+          git push
+
