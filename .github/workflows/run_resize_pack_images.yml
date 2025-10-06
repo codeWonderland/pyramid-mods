@@ -107,11 +107,15 @@ jobs:
         run: echo "modified=$(if git diff-index --quiet HEAD --; then echo "false"; else echo "true"; fi)" >> $GITHUB_OUTPUT
 
       - name: 💾 Commit and Push Resized Images
+        # Only run this step if the previous step actually performed a resize
         if: steps.git-check.outputs.modified == 'true'
-        run: |
-          git config --global user.name 'codeWonderland Bot'
-          git config --global user.email 'development+bot@codewonder.land'
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git commit -am "Fixing Formatting Issues"
-          git push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'ci: Auto-resize images in PACKS folder'
+          branch: ${{ github.head_ref || github.ref_name }} # Works for both PR and Push
+          # Specify files to commit (just in case other files were modified in previous steps)
+          file_pattern: PACKS/**
+          commit_user_name: GitHub Actions Bot
+          commit_user_email: actions@github.com
+          commit_author: GitHub Actions Bot <actions@github.com>
 
