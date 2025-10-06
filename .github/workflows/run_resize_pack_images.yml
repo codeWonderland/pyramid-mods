@@ -1,0 +1,100 @@
+name: Resize PACKS Images
+
+permissions:
+  contents: write
+
+# 1. Triggers the workflow on push or pull request to main
+#    when files in the PACKS directory are changed.
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'PACKS/**.png'
+      - 'PACKS/**.jpg'
+      - 'PACKS/**.jpeg'
+      - 'PACKS/**.webp'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'PACKS/**.png'
+      - 'PACKS/**.jpg'
+      - 'PACKS/**.jpeg'
+      - 'PACKS/**.webp'
+
+# Prevents concurrent runs on pull requests
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  resize-and-commit-images:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Install ImageMagick and jq
+        # ImageMagick is crucial for image manipulation. jq is used for JSON/data parsing in scripts.
+        run: sudo apt-get update && sudo apt-get install -y imagemagick jq
+
+      - name: 🔍 Find Changed Images in PACKS
+        id: changed-files
+        uses: tj-actions/changed-files@v44
+        with:
+          files: 'PACKS/**.{png,jpg,jpeg,webp}'
+          # Filters to only files that were added, modified, or renamed.
+          files_ignore: |
+            PACKS/**/README.md
+            .github/**
+
+      - name: 🖼️ Resize Images to 350x500
+        # Only run this step if there are changed image files.
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          RESIZED_ANY=false
+
+          # Loop through each changed file detected by the previous step
+          echo "${{ steps.changed-files.outputs.modified_files }}" "${{ steps.changed-files.outputs.added_files }}" "${{ steps.changed-files.outputs.renamed_files }}" | tr ' ' '\n' | while read FILE; do
+            if [ -f "$FILE" ]; then
+              echo "Processing $FILE..."
+
+              # Get the current dimensions using identify (part of ImageMagick)
+              DIMENSIONS=$(identify -format "%wx%h" "$FILE")
+
+              # Check if the dimensions are not exactly 350x500
+              if [ "$DIMENSIONS" != "350x500" ]; then
+                echo "  -> Resizing from $DIMENSIONS to 350x500"
+                # The '!' forces the resize to exactly 350x500, ignoring aspect ratio.
+                # If you want to maintain aspect ratio and fit *within* 350x500, remove the '!'
+                # -strip removes all metadata/exif data for smaller file size.
+                convert "$FILE" -resize "350x500!" -quality 85 -strip "$FILE"
+                RESIZED_ANY=true
+              else
+                echo "  -> Already 350x500. Skipping."
+              fi
+            fi
+          done
+
+          # Set an output to control the next step (committing changes)
+          echo "resized_any=$RESIZED_ANY" >> "$GITHUB_OUTPUT"
+        id: resize-process
+
+      - name: 💾 Commit and Push Resized Images
+        # Only run this step if the previous step actually performed a resize
+        if: steps.resize-process.outputs.resized_any == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'ci: Auto-resize images in PACKS folder'
+          branch: ${{ github.head_ref || github.ref_name }} # Works for both PR and Push
+          # Specify files to commit (just in case other files were modified in previous steps)
+          file_pattern: PACKS/**
+          commit_user_name: GitHub Actions Bot
+          commit_user_email: actions@github.com
+          commit_author: GitHub Actions Bot <actions@github.com>
+
+      - name: ✅ Check for Changes
+        if: steps.resize-process.outputs.resized_any == 'true'
+        run: echo "Resizing completed and committed. Changes pushed back to the branch."
