@@ -10,18 +10,18 @@ on:
     branches:
       - main
     paths:
-      - 'PACKS/**.png'
-      - 'PACKS/**.jpg'
-      - 'PACKS/**.jpeg'
-      - 'PACKS/**.webp'
+      - 'PACKS/**/*.png'
+      - 'PACKS/**/*.jpg'
+      - 'PACKS/**/*.jpeg'
+      - 'PACKS/**/*.webp'
   pull_request:
     branches:
       - main
     paths:
-      - 'PACKS/**.png'
-      - 'PACKS/**.jpg'
-      - 'PACKS/**.jpeg'
-      - 'PACKS/**.webp'
+      - 'PACKS/**/*.png'
+      - 'PACKS/**/*.jpg'
+      - 'PACKS/**/*.jpeg'
+      - 'PACKS/**/*.webp'
 
 # Prevents concurrent runs on pull requests
 concurrency:
@@ -44,7 +44,7 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@v44
         with:
-          files: 'PACKS/**.{png,jpg,jpeg,webp}'
+          files: 'PACKS/**/*.{png,jpg,jpeg,webp}'
           # Filters to only files that were added, modified, or renamed.
           files_ignore: |
             PACKS/**/README.md
