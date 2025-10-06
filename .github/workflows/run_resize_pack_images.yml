@@ -89,7 +89,7 @@ jobs:
             if [ "$DIMENSIONS" != "350x500" ]; then
               echo "  -> Resizing from $DIMENSIONS to 350x500"
               # Resize the image and overwrite the original file
-              # convert "$FILE" -resize "350x500!" -quality 85 -strip "$FILE"
+              convert "$FILE" -resize "350x500!" -quality 85 -strip "$FILE"
               RESIZED_ANY=true
             else
               echo "  -> Already 350x500. Skipping."
