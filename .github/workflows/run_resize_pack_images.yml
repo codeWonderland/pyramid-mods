@@ -56,12 +56,16 @@ jobs:
         run: |
           RESIZED_ANY=false
 
-          # Loop through each changed file detected by the previous step
-          echo "${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.renamed_files }}" | tr ' ' '\n' | grep . | while read FILE; do
+          # Combine all changed files into a single variable
+          CHANGED_FILES="${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.renamed_files }}"
+
+          # Use a 'for' loop to iterate over the list of files. This avoids subshell issues.
+          for FILE in $CHANGED_FILES; do
+            # Check if the file exists and is a regular file
             if [ -f "$FILE" ]; then
               echo "Processing $FILE..."
 
-              # Get the current dimensions using identify (part of ImageMagick)
+              # Get the current dimensions
               DIMENSIONS=$(identify -format "%wx%h" "$FILE")
 
               echo "Dimensions: $DIMENSIONS"
@@ -69,9 +73,7 @@ jobs:
               # Check if the dimensions are not exactly 350x500
               if [ "$DIMENSIONS" != "350x500" ]; then
                 echo "  -> Resizing from $DIMENSIONS to 350x500"
-                # The '!' forces the resize to exactly 350x500, ignoring aspect ratio.
-                # If you want to maintain aspect ratio and fit *within* 350x500, remove the '!'
-                # -strip removes all metadata/exif data for smaller file size.
+                # Resize the image and overwrite the original file
                 convert "$FILE" -resize "350x500!" -quality 85 -strip "$FILE"
                 RESIZED_ANY=true
               else
