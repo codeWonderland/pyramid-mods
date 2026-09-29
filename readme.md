@@ -31,3 +31,16 @@ Each pack folder may include a `pack.json` describing the game alongside its car
 ```
 
 `tags` use the category names from the internal spreadsheet (Action, Deckbuilder, Bullet Hell, ...). Every field is optional, and a pack without a `pack.json` still loads normally, just without tags.
+
+## Category Definitions
+`categories.json` at the root lists every category a pack can be tagged with, with a short description the game shows when hovering that filter on the draft screen.
+
+```json
+{
+	"categories": [
+		{ "id": "deckbuilder", "name": "Deckbuilder", "description": "Games about building, modifying, and using a deck of cards" }
+	]
+}
+```
+
+A pack's `tags` should use these `name`s.
