@@ -1,0 +1,23 @@
+{
+	"estimated_time": "30m",
+	"id": "fortnite",
+	"is_free": true,
+	"name": "Fortnite",
+	"objectives": {
+		"co_op_rules": "Squad up together and complete the challenges.",
+		"curse_count": 0,
+		"has_curse": false,
+		"primary_count": 7,
+		"secondary_count": 9,
+		"versus_tertiary": "Most kills at end of game"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Shooter",
+		"Multiplayer Only"
+	]
+}

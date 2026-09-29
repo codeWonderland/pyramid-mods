@@ -1,0 +1,24 @@
+{
+	"estimated_time": "30m",
+	"id": "golf-with-your-friends",
+	"is_free": false,
+	"name": "Golf With Your Friends",
+	"objectives": {
+		"co_op_rules": "Play together. Multiply the stroke count in the primary objective by # of players, combined scores must be lower than the that number",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 9,
+		"secondary_count": 7,
+		"versus_tertiary": "Lowest score at end of course"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Action",
+		"Sports",
+		"Arcade"
+	]
+}

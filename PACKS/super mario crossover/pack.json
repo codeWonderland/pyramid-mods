@@ -1,0 +1,24 @@
+{
+	"estimated_time": "30m",
+	"id": "super-mario-crossover",
+	"is_free": true,
+	"name": "Super Mario Crossover",
+	"objectives": {
+		"co_op_rules": "Switch players after each life lost",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 12,
+		"secondary_count": 6,
+		"versus_tertiary": "Fastest time to complete primary"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Platformer",
+		"Browser-based",
+		"Fighting"
+	]
+}

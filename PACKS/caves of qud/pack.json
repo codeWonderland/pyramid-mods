@@ -1,0 +1,24 @@
+{
+	"estimated_time": null,
+	"id": "caves-of-qud",
+	"is_free": false,
+	"name": "Caves of Qud",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 6,
+		"secondary_count": 17,
+		"versus_tertiary": "Lowest level/total exp at objective completion"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Adventure/RPG",
+		"Traditional Roguelike",
+		"Strategy"
+	]
+}

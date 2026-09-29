@@ -1,0 +1,42 @@
+{
+	"estimated_time": "15m",
+	"id": "vvvvvv",
+	"is_free": false,
+	"name": "VVVVVV",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 6,
+		"secondary_count": 6,
+		"versus_tertiary": "Lowest time taken to complete objectives"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@terrycavanagh",
+					"role": "Lead Dev"
+				},
+				"id": "vvvvvv-challenge-1",
+				"text": "Additionally, play the player level \"Dimension 333333\" by Sendy",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "TeqieLemon",
+					"role": "Creator"
+				},
+				"id": "vvvvvv-challenge-2",
+				"text": "Additionally, enter the Secret Lab and reach 30 seconds on Super Gravitron",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Platformer",
+		"Adventure/RPG"
+	]
+}

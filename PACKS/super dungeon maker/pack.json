@@ -1,0 +1,23 @@
+{
+	"estimated_time": "30m",
+	"id": "super-dungeon-maker",
+	"is_free": false,
+	"name": "Super Dungeon Maker",
+	"objectives": {
+		"co_op_rules": "Flip secondary objectives equal to the # of players, everyone must complete their own secondary objective with the flipped primary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 13,
+		"secondary_count": 8,
+		"versus_tertiary": "Most health left upon victory"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Adventure/RPG",
+		"Dungeon Crawler"
+	]
+}

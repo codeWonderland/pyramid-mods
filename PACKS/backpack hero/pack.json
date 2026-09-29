@@ -1,0 +1,23 @@
+{
+	"estimated_time": "1h",
+	"id": "backpack-hero",
+	"is_free": false,
+	"name": "Backpack Hero",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 0,
+		"has_curse": false,
+		"primary_count": 4,
+		"secondary_count": 11,
+		"versus_tertiary": "Most money at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Strategy",
+		"Browser-based"
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"estimated_time": null,
+	"id": "death-road-to-canada",
+	"is_free": false,
+	"name": "Death Road to Canada",
+	"objectives": {
+		"co_op_rules": "Play in co-op mode",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 8,
+		"secondary_count": 7,
+		"versus_tertiary": "Highest total zombie kills"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Action"
+	]
+}

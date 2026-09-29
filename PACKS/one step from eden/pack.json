@@ -1,0 +1,52 @@
+{
+	"estimated_time": "1h",
+	"id": "one-step-from-eden",
+	"is_free": false,
+	"name": "One Step From Eden",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 9,
+		"secondary_count": 14,
+		"versus_tertiary": "Most health at end of run"
+	},
+	"special_challenges": {
+		"creator_available": true,
+		"developer_available": false,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "VeeDotMe",
+					"role": "Creator"
+				},
+				"id": "one-step-from-eden-challenge-1",
+				"text": "Kill 5 bunnies (Must enter 5 campfires)",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "VeeDotMe",
+					"role": "Creator"
+				},
+				"id": "one-step-from-eden-challenge-2",
+				"text": "Win any boss fight with your character's basic attack only",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "VeeDotMe",
+					"role": "Creator"
+				},
+				"id": "one-step-from-eden-challenge-3",
+				"text": "Kill the Shopkeeper",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Action",
+		"Deckbuilder",
+		"Strategy"
+	]
+}

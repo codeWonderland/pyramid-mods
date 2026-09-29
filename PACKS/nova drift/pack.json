@@ -1,0 +1,24 @@
+{
+	"estimated_time": "35m",
+	"id": "nova-drift",
+	"is_free": false,
+	"name": "Nova Drift",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 6,
+		"secondary_count": 8,
+		"versus_tertiary": "Highest final round reached [after completing the objective]"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Arena Shooter",
+		"Bullet Hell",
+		"Action"
+	]
+}

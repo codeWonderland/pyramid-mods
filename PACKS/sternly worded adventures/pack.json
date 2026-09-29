@@ -1,0 +1,23 @@
+{
+	"estimated_time": "30m",
+	"id": "sternly-worded-adventures",
+	"is_free": false,
+	"name": "Sternly Worded Adventures",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 7,
+		"secondary_count": 7,
+		"versus_tertiary": "Longest word created at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Adventure/RPG",
+		"Puzzle"
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"estimated_time": "20m",
+	"id": "marvel-snap",
+	"is_free": true,
+	"name": "Marvel Snap",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 5,
+		"secondary_count": 14,
+		"versus_tertiary": "Number of locations won in combined wins"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Deckbuilder",
+		"Multiplayer Only",
+		"Strategy"
+	]
+}

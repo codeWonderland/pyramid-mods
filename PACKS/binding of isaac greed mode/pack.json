@@ -1,0 +1,24 @@
+{
+	"estimated_time": "30m",
+	"id": "binding-of-isaac-greed-mode",
+	"is_free": false,
+	"name": "Binding of Isaac Greed Mode",
+	"objectives": {
+		"co_op_rules": "Play in True Co-op if you can",
+		"curse_count": 0,
+		"has_curse": false,
+		"primary_count": 10,
+		"secondary_count": 9,
+		"versus_tertiary": "Most health at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Dungeon Crawler",
+		"Bullet Hell",
+		"Action"
+	]
+}

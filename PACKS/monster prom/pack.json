@@ -1,0 +1,23 @@
+{
+	"estimated_time": "45m",
+	"id": "monster-prom",
+	"is_free": false,
+	"name": "Monster Prom",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 8,
+		"secondary_count": 10,
+		"versus_tertiary": "Highest stat total at end of run in online lobby"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Dating Sim",
+		"Strategy"
+	]
+}

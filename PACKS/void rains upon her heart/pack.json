@@ -1,0 +1,45 @@
+{
+	"estimated_time": "45m",
+	"id": "the-void-rains-upon-her-heart",
+	"is_free": false,
+	"name": "The Void Rains Upon Her Heart",
+	"objectives": {
+		"co_op_rules": "One player plays the standard character, the second plays the Altered version or flips a new primary. Players have the same secondary objective. When possible, coordinate so that you don't love the same boss twice.",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 4,
+		"secondary_count": 13,
+		"versus_tertiary": "Highest score on run end (if both players complete their run, else Highest lvl boss loved)"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@DeveralsGames",
+					"role": "Lead Developer"
+				},
+				"id": "the-void-rains-upon-her-heart-challenge-1",
+				"source_game_name": "Void Rains Upon Her Heart",
+				"text": "Play on Altered Story. End a run with no power gifts, by giving them all away before the final boss",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@DeveralsGames",
+					"role": "Lead Developer"
+				},
+				"id": "the-void-rains-upon-her-heart-challenge-2",
+				"source_game_name": "Void Rains Upon Her Heart",
+				"text": "Play on Altered Story. Complete a run with at least 21 total battles by extending the run with events",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Dating Sim",
+		"Action",
+		"Bullet Hell"
+	]
+}

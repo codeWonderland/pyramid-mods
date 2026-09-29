@@ -1,0 +1,60 @@
+{
+	"estimated_time": "30m",
+	"id": "brotato",
+	"is_free": false,
+	"name": "Brotato",
+	"objectives": {
+		"co_op_rules": "Increase Danger Level by 2, one of you must win the run",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 20,
+		"secondary_count": 10,
+		"versus_tertiary": "Least Max HP at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@blobfishdev",
+					"role": "Lead Developer"
+				},
+				"id": "brotato-challenge-1",
+				"text": "Win a Danger Level 2 run as One Handed (Finish the run with screwdriver in hand)",
+				"type": "primary"
+			},
+			{
+				"contributor": {
+					"handle": "@blobfishdev",
+					"role": "Lead Developer"
+				},
+				"id": "brotato-challenge-2",
+				"text": "Do not buy any passive items (Weapons and upgrades are okay)",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@blobfishdev",
+					"role": "Lead Developer"
+				},
+				"id": "brotato-challenge-3",
+				"text": "Take every item reducing your max HP and ignore every item increasing your max HP",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@blobfishdev",
+					"role": "Lead Developer"
+				},
+				"id": "brotato-challenge-4",
+				"text": "Recycle all of your current weapons at every shop",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Arena Shooter",
+		"Bullet Hell"
+	]
+}

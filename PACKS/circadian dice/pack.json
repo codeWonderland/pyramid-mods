@@ -1,0 +1,42 @@
+{
+	"estimated_time": "10m",
+	"id": "circadian-dice",
+	"is_free": false,
+	"name": "Circadian Dice",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 16,
+		"secondary_count": 11,
+		"versus_tertiary": "Most money at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@syberfeldt",
+					"role": "Lead Developer"
+				},
+				"id": "circadian-dice-challenge-1",
+				"text": "As long as you have rerolls left, you must reroll",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@syberfeldt",
+					"role": "Lead Developer"
+				},
+				"id": "circadian-dice-challenge-2",
+				"text": "Only buy and install upgrades on your first die",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Dice-builder",
+		"Strategy"
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"estimated_time": "30m",
+	"id": "bloons-td6",
+	"is_free": false,
+	"name": "Bloons TD6",
+	"objectives": {
+		"co_op_rules": "Play Co-op",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 10,
+		"secondary_count": 14,
+		"versus_tertiary": "Highest final round reached [including going endless]"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Strategy",
+		"Autobattler"
+	]
+}

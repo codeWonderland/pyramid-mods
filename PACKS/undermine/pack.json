@@ -1,0 +1,24 @@
+{
+	"estimated_time": null,
+	"id": "undermine",
+	"is_free": false,
+	"name": "Undermine",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 11,
+		"secondary_count": 9,
+		"versus_tertiary": "Most curses at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Adventure/RPG",
+		"Dungeon Crawler",
+		"Action"
+	]
+}

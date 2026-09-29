@@ -1,0 +1,24 @@
+{
+	"estimated_time": "15m",
+	"id": "wordle",
+	"is_free": true,
+	"name": "Wordle",
+	"objectives": {
+		"co_op_rules": "Each person gets their own secondary objective to complete. All players minus one must complete their objective. No collaborating on the Wordle!",
+		"curse_count": 0,
+		"has_curse": false,
+		"primary_count": 3,
+		"secondary_count": 21,
+		"versus_tertiary": "Lowest number of guesses for primary and secondary objectives combined"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Browser-based",
+		"Arcade",
+		"Puzzle"
+	]
+}

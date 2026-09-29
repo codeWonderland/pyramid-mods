@@ -1,0 +1,23 @@
+{
+	"estimated_time": "1h",
+	"id": "legend-of-zelda-breath-of-the-wild",
+	"is_free": false,
+	"name": "Legend of Zelda Breath of the Wild",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 5,
+		"secondary_count": 8,
+		"versus_tertiary": "Fastest time to complete"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Adventure/RPG",
+		"Action"
+	]
+}

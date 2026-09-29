@@ -1,0 +1,43 @@
+{
+	"estimated_time": "45m",
+	"id": "tiny-rogues",
+	"is_free": false,
+	"name": "Tiny Rogues",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 7,
+		"secondary_count": 11,
+		"versus_tertiary": "Most money at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@RubyBenji",
+					"role": "Lead Dev"
+				},
+				"id": "tiny-rogues-challenge-1",
+				"text": "Got to and consume every shrine you are offered.",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@RubyBenji",
+					"role": "Lead Dev"
+				},
+				"id": "tiny-rogues-challenge-2",
+				"text": "Go into every room you are guaranteed to spend money in (shops, taverns, arcades, blacksmiths) and spend as much money as you can, even if it kills you.",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Dungeon Crawler",
+		"Action",
+		"Bullet Hell"
+	]
+}

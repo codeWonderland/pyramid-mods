@@ -1,0 +1,42 @@
+{
+	"estimated_time": "15m",
+	"id": "temp-zero",
+	"is_free": false,
+	"name": "Temp Zero",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 10,
+		"secondary_count": 10,
+		"versus_tertiary": "Highest score at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@AlexandreKadri",
+					"role": "Lead Dev"
+				},
+				"id": "temp-zero-challenge-1",
+				"text": "From room 7 to 11, every dash should evade something.",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@AlexandreKadri",
+					"role": "Lead Dev"
+				},
+				"id": "temp-zero-challenge-2",
+				"text": "Laser enemies should always be your last target.",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Rhythm",
+		"Action"
+	]
+}

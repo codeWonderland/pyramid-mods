@@ -1,0 +1,23 @@
+{
+	"estimated_time": "45m",
+	"id": "binding-of-isaac-rebirth",
+	"is_free": false,
+	"name": "Binding of Isaac Rebirth",
+	"objectives": {
+		"co_op_rules": "Play in True Co-op if you can",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 10,
+		"secondary_count": 13,
+		"versus_tertiary": "Most health at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Dungeon Crawler",
+		"Bullet Hell"
+	]
+}

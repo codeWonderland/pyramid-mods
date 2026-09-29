@@ -1,0 +1,35 @@
+{
+	"estimated_time": "1h",
+	"id": "spelunky",
+	"is_free": false,
+	"name": "Spelunky",
+	"objectives": {
+		"co_op_rules": "Play coop.",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 4,
+		"secondary_count": 14,
+		"versus_tertiary": "Highest score [money] at end of run"
+	},
+	"special_challenges": {
+		"creator_available": true,
+		"developer_available": false,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "PentaHybrid",
+					"role": "Creator"
+				},
+				"id": "spelunky-challenge-1",
+				"text": "Kill every single shopkeeper possible",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Platformer",
+		"Action",
+		"Arcade",
+		"Dungeon Crawler"
+	]
+}

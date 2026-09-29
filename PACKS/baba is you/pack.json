@@ -1,0 +1,22 @@
+{
+	"estimated_time": "30m",
+	"id": "baba-is-you",
+	"is_free": false,
+	"name": "Baba is You",
+	"objectives": {
+		"co_op_rules": "Work on the same levels together, subtract 5 min from each objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 20,
+		"secondary_count": 20,
+		"versus_tertiary": "Fastest time to complete each level"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Puzzle"
+	]
+}

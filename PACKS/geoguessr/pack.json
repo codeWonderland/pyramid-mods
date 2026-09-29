@@ -1,0 +1,23 @@
+{
+	"estimated_time": "30m",
+	"id": "geoguessr",
+	"is_free": false,
+	"name": "Geoguessr",
+	"objectives": {
+		"co_op_rules": "Multiply the score in the primary objective by # of players, combined scores must be greater than the that number",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 7,
+		"secondary_count": 11,
+		"versus_tertiary": "Highest score at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Browser-based",
+		"Puzzle"
+	]
+}

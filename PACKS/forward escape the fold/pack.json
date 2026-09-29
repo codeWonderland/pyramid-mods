@@ -1,0 +1,41 @@
+{
+	"estimated_time": "20m",
+	"id": "forward-escape-the-fold",
+	"is_free": false,
+	"name": "Forward: Escape the Fold",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 8,
+		"secondary_count": 8,
+		"versus_tertiary": "Most money at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@twotinydice",
+					"role": "Lead Dev"
+				},
+				"id": "forward-escape-the-fold-challenge-1",
+				"text": "Finish the run with a score of over 1000",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@twotinydice",
+					"role": "Lead Dev"
+				},
+				"id": "forward-escape-the-fold-challenge-2",
+				"text": "Finish a level without being attacked [except for the boss]",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Strategy"
+	]
+}

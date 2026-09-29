@@ -1,0 +1,22 @@
+{
+	"estimated_time": null,
+	"id": "warioware-get-it-together",
+	"is_free": false,
+	"name": "WarioWare Get It Together!",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 10,
+		"secondary_count": 14,
+		"versus_tertiary": "Continue playing after primary objective has been completed - highest score at game over"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Action"
+	]
+}

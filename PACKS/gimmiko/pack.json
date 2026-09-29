@@ -1,0 +1,51 @@
+{
+	"estimated_time": null,
+	"id": "gimmiko",
+	"is_free": false,
+	"name": "Gimmiko",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 2,
+		"has_curse": true,
+		"primary_count": 3,
+		"secondary_count": 12,
+		"versus_tertiary": "Highest health remaining at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@tombdude",
+					"role": "Lead Dev"
+				},
+				"id": "gimmiko-challenge-1",
+				"text": "Before you leave Salty Caramel, always freeze the stock",
+				"type": "curse"
+			},
+			{
+				"contributor": {
+					"handle": "@tombdude",
+					"role": "Lead Dev"
+				},
+				"id": "gimmiko-challenge-2",
+				"text": "Complete a round of night mode solitaire",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@tombdude",
+					"role": "Lead Dev"
+				},
+				"id": "gimmiko-challenge-3",
+				"text": "Visit the second secret shop and buy as many things as possible",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Dice-builder",
+		"Action"
+	]
+}

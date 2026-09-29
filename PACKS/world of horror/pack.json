@@ -1,0 +1,23 @@
+{
+	"estimated_time": null,
+	"id": "world-of-horror",
+	"is_free": false,
+	"name": "World of Horror",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 12,
+		"secondary_count": 12,
+		"versus_tertiary": "Lowest Doom at run end"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Horror",
+		"Adventure/RPG"
+	]
+}

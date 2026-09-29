@@ -1,0 +1,51 @@
+{
+	"estimated_time": "30m",
+	"id": "nuclear-throne",
+	"is_free": false,
+	"name": "Nuclear Throne",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 11,
+		"secondary_count": 12,
+		"versus_tertiary": "Most health at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@jwaaaap",
+					"role": "Lead Dev"
+				},
+				"id": "nuclear-throne-challenge-1",
+				"text": "Take the Oasis shortcut (pick up the ammo, weapon and rad chests on 11 before killing anything)",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@jwaaaap",
+					"role": "Lead Dev"
+				},
+				"id": "nuclear-throne-challenge-2",
+				"text": "Fight Horror (Don't pick up any rad canisters)",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@jwaaaap",
+					"role": "Lead Dev"
+				},
+				"id": "nuclear-throne-challenge-3",
+				"text": "You are only allowed to pick up explosive or melee weapons, carrying one of each",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Dungeon Crawler",
+		"Bullet Hell"
+	]
+}

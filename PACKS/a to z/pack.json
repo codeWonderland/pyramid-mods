@@ -1,0 +1,23 @@
+{
+	"estimated_time": "15m",
+	"id": "a-to-z-trivia",
+	"is_free": true,
+	"name": "A to Z Trivia",
+	"objectives": {
+		"co_op_rules": "Fill your lists together!",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 22,
+		"secondary_count": 7,
+		"versus_tertiary": "Compare words found to other players, whoever has the least matching words to others"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Miscellaneous",
+		"Puzzle"
+	]
+}

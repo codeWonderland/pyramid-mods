@@ -1,0 +1,25 @@
+{
+	"estimated_time": "30m",
+	"id": "shovel-knight-pocket-dungeon",
+	"is_free": false,
+	"name": "Shovel Knight Pocket Dungeon",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 13,
+		"secondary_count": 11,
+		"versus_tertiary": "Highest score at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Puzzle",
+		"Action",
+		"Adventure/RPG",
+		"Dungeon Crawler"
+	]
+}

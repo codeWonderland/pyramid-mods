@@ -1,0 +1,24 @@
+{
+	"estimated_time": "1h30m",
+	"id": "slime-rancher",
+	"is_free": false,
+	"name": "Slime Rancher",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 5,
+		"secondary_count": 12,
+		"versus_tertiary": "Highest plort bonus at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Sandbox",
+		"Arcade",
+		"Adventure/RPG"
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"estimated_time": "45m",
+	"id": "slay-the-spire-downfall",
+	"is_free": false,
+	"name": "Slay the Spire Downfall",
+	"objectives": {
+		"co_op_rules": "If you know how to work the coop mod, play that. If not, Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 8,
+		"secondary_count": 16,
+		"versus_tertiary": "Highest score at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Deckbuilder",
+		"Game Mods",
+		"Strategy"
+	]
+}

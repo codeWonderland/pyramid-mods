@@ -1,0 +1,44 @@
+{
+	"estimated_time": "30m",
+	"id": "beyond-the-long-night",
+	"is_free": false,
+	"name": "Beyond the Long Night",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 3,
+		"secondary_count": 10,
+		"versus_tertiary": "Most balloons at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@NoisyHeadGames",
+					"role": "Lead Dev"
+				},
+				"id": "beyond-the-long-night-challenge-1",
+				"text": "Visit every room on the map",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@NoisyHeadGames",
+					"role": "Lead Dev"
+				},
+				"id": "beyond-the-long-night-challenge-2",
+				"text": "Visit the Annoying Child in the Strange Dimension",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Dungeon Crawler",
+		"Shooter",
+		"Action",
+		"Adventure/RPG"
+	]
+}

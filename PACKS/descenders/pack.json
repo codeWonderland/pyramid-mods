@@ -1,0 +1,24 @@
+{
+	"estimated_time": "30m",
+	"id": "descenders",
+	"is_free": false,
+	"name": "Descenders",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 0,
+		"has_curse": false,
+		"primary_count": 4,
+		"secondary_count": 6,
+		"versus_tertiary": "Furthest area reached"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Action",
+		"Racing",
+		"Sports"
+	]
+}

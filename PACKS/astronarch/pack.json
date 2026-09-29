@@ -1,0 +1,24 @@
+{
+	"estimated_time": null,
+	"id": "astronarch",
+	"is_free": false,
+	"name": "Astronarch",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 21,
+		"secondary_count": 6,
+		"versus_tertiary": "Most money at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Autobattler",
+		"Adventure/RPG",
+		"Strategy"
+	]
+}

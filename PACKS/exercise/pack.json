@@ -1,0 +1,22 @@
+{
+	"estimated_time": "10m",
+	"id": "exercise",
+	"is_free": true,
+	"name": "Exercise",
+	"objectives": {
+		"co_op_rules": "Just workout together :)",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 4,
+		"secondary_count": 10,
+		"versus_tertiary": "This is a meme deck, why are you looking at the multiplayer rules for it?"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Miscellaneous"
+	]
+}

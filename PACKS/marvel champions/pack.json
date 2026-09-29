@@ -1,0 +1,24 @@
+{
+	"estimated_time": null,
+	"id": "marvel-champions",
+	"is_free": false,
+	"name": "Marvel Champions",
+	"objectives": {
+		"co_op_rules": "Play as a co-op game",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 12,
+		"secondary_count": 14,
+		"versus_tertiary": "Least threat on main scheme"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Board Games",
+		"Deckbuilder",
+		"Strategy"
+	]
+}

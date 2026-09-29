@@ -1,0 +1,51 @@
+{
+	"estimated_time": "45m",
+	"id": "peglin",
+	"is_free": false,
+	"name": "Peglin",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective. Increase cruciball level by 2",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 4,
+		"secondary_count": 14,
+		"versus_tertiary": "Most money at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@rednexusgames",
+					"role": "Studio"
+				},
+				"id": "peglin-challenge-1",
+				"text": "Beat the Forest without taking any relics.",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@rednexusgames",
+					"role": "Studio"
+				},
+				"id": "peglin-challenge-2",
+				"text": "You must take any stone offered to you after battle or in scenarios.",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@rednexusgames",
+					"role": "Studio"
+				},
+				"id": "peglin-challenge-3",
+				"text": "You must add an orb after battle whenever able.",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Action",
+		"Deckbuilder"
+	]
+}

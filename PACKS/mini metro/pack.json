@@ -1,0 +1,24 @@
+{
+	"estimated_time": "30m",
+	"id": "mini-metro",
+	"is_free": false,
+	"name": "Mini Metro",
+	"objectives": {
+		"co_op_rules": "Add 100 to the primary objective, one of you must complete the objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 7,
+		"secondary_count": 10,
+		"versus_tertiary": "Highest score at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Strategy",
+		"Arcade",
+		"Puzzle"
+	]
+}
