@@ -1,0 +1,27 @@
+{
+	"estimated_time": "30m",
+	"id": "bpm-bullets-per-minute",
+	"is_free": false,
+	"name": "BPM Bullets Per Minute",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 6,
+		"secondary_count": 7,
+		"versus_tertiary": "Highest score at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Dungeon Crawler",
+		"Rhythm",
+		"Shooter",
+		"Bullet Hell",
+		"Arcade",
+		"Action"
+	]
+}

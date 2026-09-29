@@ -1,0 +1,42 @@
+{
+	"estimated_time": "45m",
+	"id": "despot-s-game",
+	"is_free": false,
+	"name": "Despot's Game",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 8,
+		"secondary_count": 6,
+		"versus_tertiary": "Most humans at end of run"
+	},
+	"special_challenges": {
+		"creator_available": true,
+		"developer_available": false,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "TimeToGrind",
+					"role": "Creator"
+				},
+				"id": "despot-s-game-challenge-1",
+				"text": "Save 150 gold at once",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "TimeToGrind",
+					"role": "Creator"
+				},
+				"id": "despot-s-game-challenge-2",
+				"text": "Beat at least 5 enemies in \"King of the Hill\" after winning your run",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Autobattler",
+		"Strategy"
+	]
+}

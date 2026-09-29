@@ -1,0 +1,23 @@
+{
+	"estimated_time": "45m",
+	"id": "inscryption-kaycee-s-mod",
+	"is_free": false,
+	"name": "Inscryption Kaycee's Mod",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 0,
+		"has_curse": false,
+		"primary_count": 8,
+		"secondary_count": 12,
+		"versus_tertiary": "Fewest cards at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Deckbuilder",
+		"Strategy"
+	]
+}

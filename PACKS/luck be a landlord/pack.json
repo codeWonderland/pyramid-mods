@@ -1,0 +1,45 @@
+{
+	"estimated_time": "45m",
+	"id": "luck-be-a-landlord",
+	"is_free": false,
+	"name": "Luck Be A Landlord",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 4,
+		"secondary_count": 13,
+		"versus_tertiary": "Most money after final rent cycle [do not go into endless]"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@TrampolineTales",
+					"role": "Lead Dev"
+				},
+				"id": "luck-be-a-landlord-challenge-1",
+				"source_game_name": "Luck be a Landlord",
+				"text": "Destroy at least 40 symbols over the course of the run.",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@TrampolineTales",
+					"role": "Lead Dev"
+				},
+				"id": "luck-be-a-landlord-challenge-2",
+				"source_game_name": "Luck be a Landlord",
+				"text": "Win a run with every UI scaling setting set to 50%.",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Strategy",
+		"Arcade",
+		"Autobattler"
+	]
+}

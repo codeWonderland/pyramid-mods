@@ -1,0 +1,22 @@
+{
+	"estimated_time": "15m",
+	"id": "celeste",
+	"is_free": false,
+	"name": "Celeste",
+	"objectives": {
+		"co_op_rules": "Multiply the death count by # of players, combined you must be below that number",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 5,
+		"secondary_count": 7,
+		"versus_tertiary": "Lowest number of deaths in chapter"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Platformer"
+	]
+}

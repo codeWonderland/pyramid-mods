@@ -1,0 +1,42 @@
+{
+	"estimated_time": "1h",
+	"id": "stardew-valley",
+	"is_free": false,
+	"name": "Stardew Valley",
+	"objectives": {
+		"co_op_rules": "Play coop if you can.",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 4,
+		"secondary_count": 12,
+		"versus_tertiary": "Most money at end of three days"
+	},
+	"special_challenges": {
+		"creator_available": true,
+		"developer_available": false,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "jessyamessy",
+					"role": "Creator"
+				},
+				"id": "stardew-valley-challenge-1",
+				"text": "Catch a Catfish within the first week of the game",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "jessyamessy",
+					"role": "Creator"
+				},
+				"id": "stardew-valley-challenge-2",
+				"text": "Buy the first backpack upgrade inthe first week of the game",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Sandbox",
+		"Adventure/RPG"
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"estimated_time": "40m",
+	"id": "dome-keeper",
+	"is_free": false,
+	"name": "Dome Keeper",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 7,
+		"secondary_count": 10,
+		"versus_tertiary": "Most triangles in inventory at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@BippinBits",
+					"role": "Lead Dev"
+				},
+				"id": "dome-keeper-challenge-1",
+				"text": "Collect the relc on brutal difficulty Relic Hunt using Laser Dome. Play on small map and do not upgrade the laser",
+				"type": "primary"
+			},
+			{
+				"contributor": {
+					"handle": "@BippinBits",
+					"role": "Lead Dev"
+				},
+				"id": "dome-keeper-challenge-2",
+				"text": "Use the Sword Dome regardless of what your primary says. Slice an incoming Diver with the sword",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Action"
+	]
+}

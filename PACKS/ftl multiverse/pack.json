@@ -1,0 +1,24 @@
+{
+	"estimated_time": "1h45m",
+	"id": "ftl-multiverse",
+	"is_free": false,
+	"name": "FTL Multiverse",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 24,
+		"secondary_count": 8,
+		"versus_tertiary": "Highest score at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Game Mods",
+		"Adventure/RPG",
+		"Strategy"
+	]
+}

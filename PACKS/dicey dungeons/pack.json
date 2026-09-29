@@ -1,0 +1,33 @@
+{
+	"estimated_time": "25m",
+	"id": "dicey-dungeons",
+	"is_free": false,
+	"name": "Dicey Dungeons",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 6,
+		"secondary_count": 14,
+		"versus_tertiary": "Most health at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@terrycavanagh",
+					"role": "Lead Dev"
+				},
+				"id": "dicey-dungeons-challenge-1",
+				"text": "Play the player mod \"Tennis\" https://notmario.itch.io/tennis",
+				"type": "primary"
+			}
+		]
+	},
+	"tags": [
+		"Dice-builder",
+		"Strategy"
+	]
+}

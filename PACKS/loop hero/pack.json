@@ -1,0 +1,24 @@
+{
+	"estimated_time": "45m",
+	"id": "loop-hero",
+	"is_free": false,
+	"name": "Loop Hero",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 3,
+		"secondary_count": 13,
+		"versus_tertiary": "Most resource orbs at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Autobattler",
+		"Tactics",
+		"Deckbuilder"
+	]
+}

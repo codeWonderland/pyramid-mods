@@ -1,0 +1,23 @@
+{
+	"estimated_time": "30m",
+	"id": "sporcle",
+	"is_free": true,
+	"name": "Sporcle",
+	"objectives": {
+		"co_op_rules": "Each player, minus one, must get above average on the quizzes drawn",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 3,
+		"secondary_count": 34,
+		"versus_tertiary": "Highest mean percentage across all quizzes"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Browser-based",
+		"Puzzle"
+	]
+}

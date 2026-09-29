@@ -1,0 +1,23 @@
+{
+	"estimated_time": null,
+	"id": "paper-planet",
+	"is_free": false,
+	"name": "Paper Planet",
+	"objectives": {
+		"co_op_rules": "Play local screen coop!",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 5,
+		"secondary_count": 10,
+		"versus_tertiary": "Most health at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Action",
+		"Bullet Hell"
+	]
+}

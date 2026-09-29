@@ -1,0 +1,54 @@
+{
+	"estimated_time": "45m",
+	"id": "binding-of-isaac-repentance",
+	"is_free": false,
+	"name": "Binding of Isaac Repentance",
+	"objectives": {
+		"co_op_rules": "Play in True Co-op if you can",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 9,
+		"secondary_count": 13,
+		"versus_tertiary": "Most health at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@FixItVinh",
+					"role": "Design/Programming"
+				},
+				"id": "binding-of-isaac-repentance-challenge-1",
+				"source_game_name": "Binding of Isaac: Repentance",
+				"text": "While playing with the ALM1 GHTY seed (god mode), complete the primary objective under 25 minutes",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@FixItVinh",
+					"role": "Design/Programming"
+				},
+				"id": "binding-of-isaac-repentance-challenge-2",
+				"source_game_name": "Binding of Isaac: Repentance",
+				"text": "Play with the D0NT ST0P and SVPE RH0T seeds active at the same time",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@FixItVinh",
+					"role": "Design/Programming"
+				},
+				"id": "binding-of-isaac-repentance-challenge-3",
+				"source_game_name": "Binding of Isaac: Repentance",
+				"text": "Crash the game while playing the DELETE THIS challenge",
+				"type": "primary"
+			}
+		]
+	},
+	"tags": [
+		"Dungeon Crawler",
+		"Bullet Hell"
+	]
+}

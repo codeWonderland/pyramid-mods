@@ -1,0 +1,23 @@
+{
+	"estimated_time": null,
+	"id": "we-love-katamari",
+	"is_free": false,
+	"name": "We Love Katamari",
+	"objectives": {
+		"co_op_rules": "Play in co-op mode",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 11,
+		"secondary_count": 6,
+		"versus_tertiary": "Biggest katamari"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Puzzle",
+		"Action"
+	]
+}

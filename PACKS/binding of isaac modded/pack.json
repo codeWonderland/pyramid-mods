@@ -1,0 +1,34 @@
+{
+	"estimated_time": "45m",
+	"id": "binding-of-isaac-modded",
+	"is_free": false,
+	"name": "Binding of Isaac Modded",
+	"objectives": {
+		"co_op_rules": "Play in True Co-op if you can",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 8,
+		"secondary_count": 13,
+		"versus_tertiary": "Most health at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@AgentCucco",
+					"role": "Job Mod"
+				},
+				"id": "binding-of-isaac-modded-challenge-1",
+				"text": "Visit every alt path floor except for Corpse",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Dungeon Crawler",
+		"Game Mods",
+		"Bullet Hell"
+	]
+}

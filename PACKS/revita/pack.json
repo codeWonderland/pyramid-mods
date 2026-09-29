@@ -1,0 +1,53 @@
+{
+	"estimated_time": "45m",
+	"id": "revita",
+	"is_free": false,
+	"name": "Revita",
+	"objectives": {
+		"co_op_rules": "Increase shard level by 5. One of you must beat the objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 8,
+		"secondary_count": 18,
+		"versus_tertiary": "Highest health at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@BenStarDEV",
+					"role": "Lead Developer"
+				},
+				"id": "revita-challenge-1",
+				"text": "Playing at Shard 0, give the Crown to the Frog King in The Caldarium (Finish at Acceptance instead)",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@BenStarDEV",
+					"role": "Lead Developer"
+				},
+				"id": "revita-challenge-2",
+				"text": "Pick up a curse whenever you have the opportunity to",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@BenStarDEV",
+					"role": "Lead Developer"
+				},
+				"id": "revita-challenge-3",
+				"text": "Activate Custom Shards. Play with the Attachment Modifier turned on",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Platformer",
+		"Action",
+		"Shooter",
+		"Dungeon Crawler"
+	]
+}

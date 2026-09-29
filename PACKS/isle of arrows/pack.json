@@ -1,0 +1,61 @@
+{
+	"estimated_time": "30m",
+	"id": "isle-of-arrows",
+	"is_free": false,
+	"name": "Isle of Arrows",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 16,
+		"secondary_count": 14,
+		"versus_tertiary": "Highest score at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@Lutzmade",
+					"role": "Lead Dev"
+				},
+				"id": "isle-of-arrows-challenge-1",
+				"text": "Can't Pick the 3rd option when selecting bonus cards.",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@Lutzmade",
+					"role": "Lead Dev"
+				},
+				"id": "isle-of-arrows-challenge-2",
+				"text": "Fully surround an arrow tower by water tiles (including diagonals)",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@Lutzmade",
+					"role": "Lead Dev"
+				},
+				"id": "isle-of-arrows-challenge-3",
+				"text": "Towers cannot be placed adjacent to other towers (including diagonals)",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@Lutzmade",
+					"role": "Lead Dev"
+				},
+				"id": "isle-of-arrows-challenge-4",
+				"text": "Path tiles can only be placed if they connect to an existing path",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Strategy",
+		"Puzzle",
+		"Autobattler"
+	]
+}

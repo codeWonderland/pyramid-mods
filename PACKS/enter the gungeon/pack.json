@@ -1,0 +1,25 @@
+{
+	"estimated_time": "45m",
+	"id": "enter-the-gungeon",
+	"is_free": false,
+	"name": "Enter the Gungeon",
+	"objectives": {
+		"co_op_rules": "If 2 player coop, play the challenges in coop.",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 8,
+		"secondary_count": 19,
+		"versus_tertiary": "Most health [shields and hearts] at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Dungeon Crawler",
+		"Action",
+		"Shooter",
+		"Bullet Hell"
+	]
+}

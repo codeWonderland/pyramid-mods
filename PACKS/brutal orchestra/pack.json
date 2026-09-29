@@ -1,0 +1,42 @@
+{
+	"estimated_time": "1h20m",
+	"id": "brutal-orchestra",
+	"is_free": false,
+	"name": "Brutal Orchestra",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 8,
+		"secondary_count": 9,
+		"versus_tertiary": "Most money at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": true,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "@ItsTheTalia",
+					"role": "Lead Designer"
+				},
+				"id": "brutal-orchestra-challenge-1",
+				"text": "Every time you take direct damage from an enemy for the first time in combat, you must call your dad and tell him you love him. You cannot elaborate further until you have finished the run",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "@nico_codrilo",
+					"role": "Lead Programmer"
+				},
+				"id": "brutal-orchestra-challenge-2",
+				"text": "Beat the final boss with a Mung in your party",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Adventure/RPG",
+		"Tactics"
+	]
+}

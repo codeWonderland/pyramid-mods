@@ -1,0 +1,23 @@
+{
+	"estimated_time": "45m",
+	"id": "cult-of-the-lamb",
+	"is_free": false,
+	"name": "Cult of the Lamb",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 4,
+		"secondary_count": 9,
+		"versus_tertiary": "Most followers recruited at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Dungeon Crawler",
+		"Bullet Hell"
+	]
+}

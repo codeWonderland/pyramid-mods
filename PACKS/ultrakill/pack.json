@@ -1,0 +1,25 @@
+{
+	"estimated_time": null,
+	"id": "ultrakill",
+	"is_free": false,
+	"name": "Ultrakill",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 5,
+		"secondary_count": 5,
+		"versus_tertiary": "Most money at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Shooter",
+		"Action",
+		"Arcade",
+		"Bullet Hell"
+	]
+}

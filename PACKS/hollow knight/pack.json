@@ -1,0 +1,24 @@
+{
+	"estimated_time": "1h",
+	"id": "hollow-knight",
+	"is_free": false,
+	"name": "Hollow Knight",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 10,
+		"secondary_count": 10,
+		"versus_tertiary": "Lowest time taken to complete objectives"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Adventure/RPG",
+		"Dungeon Crawler",
+		"Platformer"
+	]
+}

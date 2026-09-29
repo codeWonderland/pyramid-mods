@@ -1,0 +1,24 @@
+{
+	"estimated_time": "30m",
+	"id": "apex-legends",
+	"is_free": true,
+	"name": "Apex Legends",
+	"objectives": {
+		"co_op_rules": "Squad up and play together and, you know, have a fun time, that's what it's all about",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 10,
+		"secondary_count": 10,
+		"versus_tertiary": "Highest combined kills/assists in most successful game [if tied, go by highest kills]"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Shooter",
+		"Action",
+		"Multiplayer Only"
+	]
+}

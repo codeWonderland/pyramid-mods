@@ -1,0 +1,26 @@
+{
+	"estimated_time": "1h",
+	"id": "risk-of-rain-2",
+	"is_free": false,
+	"name": "Risk of Rain 2",
+	"objectives": {
+		"co_op_rules": "Play together!",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 11,
+		"secondary_count": 9,
+		"versus_tertiary": "Highest score at end of run"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Platformer",
+		"Shooter",
+		"Action",
+		"Adventure/RPG",
+		"Bullet Hell"
+	]
+}

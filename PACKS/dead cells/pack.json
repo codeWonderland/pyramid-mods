@@ -1,0 +1,62 @@
+{
+	"estimated_time": "45m",
+	"id": "dead-cells",
+	"is_free": false,
+	"name": "Dead Cells",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 6,
+		"secondary_count": 13,
+		"versus_tertiary": "Most health flask chargest at end of run"
+	},
+	"special_challenges": {
+		"creator_available": true,
+		"developer_available": false,
+		"entries": [
+			{
+				"contributor": {
+					"handle": "VeeDotMe",
+					"role": "Creator"
+				},
+				"id": "dead-cells-challenge-1",
+				"text": "Beat the game with all stats evenly distrubuted",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "VeeDotMe",
+					"role": "Creator"
+				},
+				"id": "dead-cells-challenge-2",
+				"text": "Using Custom Mode, disable the Minor Forge",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "VeeDotMe",
+					"role": "Creator"
+				},
+				"id": "dead-cells-challenge-3",
+				"text": "Kill the Hand of the King with a parry",
+				"type": "secondary"
+			},
+			{
+				"contributor": {
+					"handle": "VeeDotMe",
+					"role": "Creator"
+				},
+				"id": "dead-cells-challenge-4",
+				"text": "Keep at least 1 item of each colour in your inventory",
+				"type": "secondary"
+			}
+		]
+	},
+	"tags": [
+		"Action",
+		"Dungeon Crawler",
+		"Platformer",
+		"Adventure/RPG"
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"estimated_time": "5m",
+	"id": "wikipedia",
+	"is_free": true,
+	"name": "Wikipedia",
+	"objectives": {
+		"co_op_rules": "Each person gets their own secondary objective to reach. All players minus one must complete their objective.",
+		"curse_count": 0,
+		"has_curse": false,
+		"primary_count": 18,
+		"secondary_count": 16,
+		"versus_tertiary": "Fewest clicks to reach location"
+	},
+	"special_challenges": {
+		"creator_available": false,
+		"developer_available": false,
+		"entries": []
+	},
+	"tags": [
+		"Browser-based",
+		"Strategy"
+	]
+}
