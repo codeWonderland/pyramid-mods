@@ -1,0 +1,149 @@
+{
+	"categories": [
+		{
+			"id": "action",
+			"name": "Action",
+			"description": "Games focused primarily on real-time player skill, reflexes, and execution"
+		},
+		{
+			"id": "adventure-rpg",
+			"name": "Adventure/RPG",
+			"description": "Games focused on exploration, narrative, character progression, or a larger adventure"
+		},
+		{
+			"id": "arcade",
+			"name": "Arcade",
+			"description": "Games focused on short, repeatable sessions, high scores, or point-based challenges"
+		},
+		{
+			"id": "arena-shooter",
+			"name": "Arena Shooter",
+			"description": "Shooter games focused on combat within enclosed arenas, often against waves of enemies"
+		},
+		{
+			"id": "autobattler",
+			"name": "Autobattler",
+			"description": "Games where combat occurs automatically after the player makes strategic decisions"
+		},
+		{
+			"id": "board-games",
+			"name": "Board Games",
+			"description": "Digital or physical games designed around tabletop-style rules and systems"
+		},
+		{
+			"id": "browser-based",
+			"name": "Browser-based",
+			"description": "Games playable entirely within a web browser"
+		},
+		{
+			"id": "bullet-hell",
+			"name": "Bullet Hell",
+			"description": "Games focused on avoiding barrages of projectiles"
+		},
+		{
+			"id": "dating-sim",
+			"name": "Dating Sim",
+			"description": "Games about... building romantic relationships?"
+		},
+		{
+			"id": "deckbuilder",
+			"name": "Deckbuilder",
+			"description": "Games about building, modifying, and using a deck of cards"
+		},
+		{
+			"id": "dice-builder",
+			"name": "Dice-builder",
+			"description": "Games about collecting, modifying, or constructing a pool of dice"
+		},
+		{
+			"id": "dungeon-crawler",
+			"name": "Dungeon Crawler",
+			"description": "Games focused on exploring dungeon-like environments, fighting enemies, and finding rewards"
+		},
+		{
+			"id": "fighting",
+			"name": "Fighting",
+			"description": "Games focused primarily on direct close-combat battles between characters"
+		},
+		{
+			"id": "horror",
+			"name": "Horror",
+			"description": "Games where fear, tension, or a horror atmosphere is a core part of the experience"
+		},
+		{
+			"id": "inventory-management",
+			"name": "Inventory Management",
+			"description": "Games about organizing, optimizing, or manipulating an inventory"
+		},
+		{
+			"id": "miscellaneous",
+			"name": "Miscellaneous",
+			"description": "Games that don't quite fall into our other tags, this is a catch-all tag"
+		},
+		{
+			"id": "multiplayer-only",
+			"name": "Multiplayer Only",
+			"description": "Games that require multiple players, either cooperatively or competitively"
+		},
+		{
+			"id": "platformer",
+			"name": "Platformer",
+			"description": "Games focused on movement and navigating environmental or platforming challenges"
+		},
+		{
+			"id": "puzzle",
+			"name": "Puzzle",
+			"description": "Games focused primarily on problem-solving, logic, or deduction"
+		},
+		{
+			"id": "racing",
+			"name": "Racing",
+			"description": "Games focused on racing other individuals"
+		},
+		{
+			"id": "rhythm",
+			"name": "Rhythm",
+			"description": "Games where actions are primarily performed in time with music, beats, or rhythmic patterns"
+		},
+		{
+			"id": "sandbox",
+			"name": "Sandbox",
+			"description": "Games emphasizing player freedom, experimentation, and exploration"
+		},
+		{
+			"id": "shooter",
+			"name": "Shooter",
+			"description": "Games where ranged weapon combat and aiming are central gameplay mechanics"
+		},
+		{
+			"id": "sports",
+			"name": "Sports",
+			"description": "Games based on real-world sports or structured around sports-like competitive rules"
+		},
+		{
+			"id": "strategy",
+			"name": "Strategy",
+			"description": "Games focused on planning, resource management, positioning, and long-term decision-making"
+		},
+		{
+			"id": "tactics",
+			"name": "Tactics",
+			"description": "Games focused on smaller-scale strategic decisions, positioning, and moment-to-moment combat planning"
+		},
+		{
+			"id": "traditional-roguelike",
+			"name": "Traditional Roguelike",
+			"description": "Turn-based, grid-based games built around procedural generation, permadeath, and run-based progression"
+		},
+		{
+			"id": "game-mods",
+			"name": "Game Mods",
+			"description": "Modifications or expansions created for an existing game rather than standalone games"
+		},
+		{
+			"id": "workshop-mods",
+			"name": "Workshop Mods",
+			"description": "Community-created modifications or challenges made specifically for The Pyramid"
+		}
+	]
+}
