@@ -34,6 +34,19 @@ Each pack folder may include a `pack.json` describing the game alongside its car
 
 `tags` use the categories in `categories.json` (Action, Deckbuilder, Bullet Hell, ...). A challenge whose contributor's `role` is `Creator` counts as a creator challenge; any other role counts as the game's developers. Every field is optional, and a pack without a `pack.json` still loads normally, just without tags.
 
+## Renaming a Pack
+Players' saves, favorites and library marks remember packs by folder name. When a pack folder is renamed, add the old and new names to `renames.json` at the root, and the game will follow the rename:
+
+```json
+{
+	"renames": {
+		"monolith": "star of providence"
+	}
+}
+```
+
+Keep old entries: a player may be updating from any earlier version.
+
 ## Category Definitions
 `categories.json` at the root lists every category a pack can be tagged with, with a short description the game shows when hovering that filter on the draft screen.
 
