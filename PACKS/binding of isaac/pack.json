@@ -1,4 +1,5 @@
 {
+	"description": "The Binding of Isaac is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaac’s form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety.",
 	"estimated_time": "45m",
 	"id": "binding-of-isaac-rebirth",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/",
 	"tags": [
 		"Dungeon Crawler",
 		"Bullet Hell"
