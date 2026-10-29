@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+  # main requires this check before a pull request can merge, so it has to run
+  # on pull requests too - otherwise they wait on it forever.
+  pull_request:
+    branches:
+      - main
 
 jobs:
   validate-packs:
