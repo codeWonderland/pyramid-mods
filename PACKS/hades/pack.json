@@ -1,5 +1,6 @@
 {
-	"estimated_time": null,
+	"description": "Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion, Transistor, and Pyre.",
+	"estimated_time": "1h",
 	"id": "hades",
 	"is_free": false,
 	"name": "Hades",
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/1145360/Hades/",
 	"tags": [
 		"Action",
 		"Adventure/RPG",

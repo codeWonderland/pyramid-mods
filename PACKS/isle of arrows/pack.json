@@ -1,4 +1,5 @@
 {
+	"description": "Isle of Arrows is a Puzzle Tower Defense game in which you build a fortress in the sky. Place towers, expand the isle, and build your own paths. Can you find the perfect spot for each tile to beat the RNG and defend against waves of invaders?",
 	"estimated_time": "30m",
 	"id": "isle-of-arrows",
 	"is_free": false,
@@ -53,6 +54,7 @@
 			}
 		]
 	},
+	"store_url": "https://store.steampowered.com/app/1946970/Isle_of_Arrows/",
 	"tags": [
 		"Strategy",
 		"Puzzle",

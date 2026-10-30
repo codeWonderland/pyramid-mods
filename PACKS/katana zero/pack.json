@@ -1,4 +1,5 @@
 {
+	"description": "Katana ZERO is a stylish neo-noir, action-platformer featuring breakneck action and instant-death combat. Slash, dash, and manipulate time to unravel your past in a beautifully brutal acrobatic display.",
 	"estimated_time": null,
 	"id": "katana-zero",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/460950/Katana_ZERO/",
 	"tags": [
 		"Platformer",
 		"Action",
