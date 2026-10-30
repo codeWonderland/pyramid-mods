@@ -1,4 +1,5 @@
 {
+	"description": "Brotato is a top-down arena shooter roguelite where you play a potato wielding up to 6 weapons at a time to fight off hordes of aliens. Choose from a variety of traits and items to create unique builds and survive until help arrives. This deck does not require any Brotato DLC to play.",
 	"estimated_time": "30m",
 	"id": "brotato",
 	"is_free": false,
@@ -7,8 +8,8 @@
 		"co_op_rules": "Increase Danger Level by 2, one of you must win the run",
 		"curse_count": 1,
 		"has_curse": true,
-		"primary_count": 20,
-		"secondary_count": 10,
+		"primary_count": 19,
+		"secondary_count": 11,
 		"versus_tertiary": "Least Max HP at end of run"
 	},
 	"special_challenges": {
@@ -53,6 +54,7 @@
 			}
 		]
 	},
+	"store_url": "https://store.steampowered.com/app/1942280/Brotato/",
 	"tags": [
 		"Arena Shooter",
 		"Bullet Hell"

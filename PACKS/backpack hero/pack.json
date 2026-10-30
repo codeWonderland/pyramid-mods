@@ -1,12 +1,13 @@
 {
+	"description": "The inventory management roguelike! Collect rare items, organize your backpack, and vanquish your foes!",
 	"estimated_time": "1h",
 	"id": "backpack-hero",
 	"is_free": false,
 	"name": "Backpack Hero",
 	"objectives": {
 		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
-		"curse_count": 0,
-		"has_curse": false,
+		"curse_count": 1,
+		"has_curse": true,
 		"primary_count": 4,
 		"secondary_count": 11,
 		"versus_tertiary": "Most money at end of run"
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/1970580/Backpack_Hero/",
 	"tags": [
 		"Strategy",
 		"Browser-based"

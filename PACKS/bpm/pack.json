@@ -1,4 +1,5 @@
 {
+	"description": "BPM is a rhythm-action FPS rogue-like where you must shoot, jump and dodge to the beat of an epic rock soundtrack. Delve into a randomly generated dungeon where one missed note can lead to your death. Gain game-changing abilities and loot powerful weaponry to defeat your ancient enemy: Nidhogg.",
 	"estimated_time": "30m",
 	"id": "bpm-bullets-per-minute",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/1286350/BPM_BULLETS_PER_MINUTE/",
 	"tags": [
 		"Dungeon Crawler",
 		"Rhythm",

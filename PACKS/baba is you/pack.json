@@ -1,4 +1,5 @@
 {
+	"description": "Baba Is You is a puzzle game where the rules you have to follow are present as blocks you can interact with. By manipulating them, you can change how the game works, repurpose things you find in the levels and cause surprising interactions! This deck focuses on modded level made by members of the Baba is You community, and may require late game knowledge of the game. Not for the faint of heart!",
 	"estimated_time": "30m",
 	"id": "baba-is-you",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/736260/Baba_Is_You/",
 	"tags": [
 		"Puzzle"
 	]

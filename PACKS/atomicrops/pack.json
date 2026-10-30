@@ -1,4 +1,5 @@
 {
+	"description": "A twin-stick, bullet-hell, roguelite where you must cultivate and defend the last farm in a post-apocalyptic wasteland. Farm mutated crops, upgrade your weapons, marry townsfolk, and kill every mutant creature that tries to invade your homestead! Yee-haw!",
 	"estimated_time": "1h",
 	"id": "atomicrops",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/757320/Atomicrops/",
 	"tags": [
 		"Action",
 		"Bullet Hell",
