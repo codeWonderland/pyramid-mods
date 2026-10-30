@@ -1,4 +1,5 @@
 {
+	"description": "Agent 11 is back. The iconic tactical deck-builder returns, with new tricks up its impeccably tailored sleeves… and this time it’s with friends. Improvise within the space, adapt your deck to the challenges ahead, and overcome a roster of new enemies in stylish, animated, fight sequences.",
 	"estimated_time": "1h",
 	"id": "fights-in-tight-spaces",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/1265820/Fights_in_Tight_Spaces/",
 	"tags": [
 		"Deckbuilder",
 		"Tactics",

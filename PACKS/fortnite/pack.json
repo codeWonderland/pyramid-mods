@@ -1,12 +1,13 @@
 {
+	"description": "It's Fortnite.",
 	"estimated_time": "30m",
 	"id": "fortnite",
 	"is_free": true,
 	"name": "Fortnite",
 	"objectives": {
 		"co_op_rules": "Squad up together and complete the challenges.",
-		"curse_count": 0,
-		"has_curse": false,
+		"curse_count": 1,
+		"has_curse": true,
 		"primary_count": 7,
 		"secondary_count": 9,
 		"versus_tertiary": "Most kills at end of game"
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://www.fortnite.com/download",
 	"tags": [
 		"Shooter",
 		"Multiplayer Only"

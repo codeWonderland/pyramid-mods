@@ -1,4 +1,5 @@
 {
+	"description": "Become a giant walking dice, explore dungeons and defy Lady Luck in this dice powered roguelike! Now featuring \"Reunion\", a free DLC with six brand-new episodes!",
 	"estimated_time": "25m",
 	"id": "dicey-dungeons",
 	"is_free": false,
@@ -8,7 +9,7 @@
 		"curse_count": 1,
 		"has_curse": true,
 		"primary_count": 6,
-		"secondary_count": 14,
+		"secondary_count": 15,
 		"versus_tertiary": "Most health at end of run"
 	},
 	"special_challenges": {
@@ -26,6 +27,7 @@
 			}
 		]
 	},
+	"store_url": "https://store.steampowered.com/app/861540/Dicey_Dungeons/",
 	"tags": [
 		"Dice-builder",
 		"Strategy"

@@ -1,4 +1,5 @@
 {
+	"description": "FTL Multiverse is a massive modded expansion for FTL including new sectors, equipment, species, and endings. It's incredible expansive, and a LOT of fun.",
 	"estimated_time": "1h45m",
 	"id": "ftl-multiverse",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2981496162",
 	"tags": [
 		"Game Mods",
 		"Adventure/RPG",

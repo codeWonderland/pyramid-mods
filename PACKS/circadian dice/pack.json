@@ -1,4 +1,5 @@
 {
+	"description": "Circadian Dice is a game inspired by single-player deck-building games, but instead of upgrading a deck, you build up a set of dice! Use 10 different heroes and 60 game-warping relics to take on 13 hand-crafted scenarios, in runs that take 10-30 minutes. Lots of secrets and unlocks to discover!",
 	"estimated_time": "10m",
 	"id": "circadian-dice",
 	"is_free": false,
@@ -7,7 +8,7 @@
 		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
 		"curse_count": 1,
 		"has_curse": true,
-		"primary_count": 16,
+		"primary_count": 10,
 		"secondary_count": 11,
 		"versus_tertiary": "Most money at end of run"
 	},
@@ -35,6 +36,7 @@
 			}
 		]
 	},
+	"store_url": "https://store.steampowered.com/app/1893620/Circadian_Dice/",
 	"tags": [
 		"Dice-builder",
 		"Strategy"

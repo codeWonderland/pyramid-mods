@@ -1,4 +1,5 @@
 {
+	"description": "Dungreed is a 2D side-scrolling action game with 2D Rogue-LITE elements. You become an adventurer exploring a continuously evolving dungeon to prevent the town from being destroyed. Eliminate enemies, use a variety of weapons and magic, eat food, and defeat evil in the dungeon!",
 	"estimated_time": "45m",
 	"id": "dungreed",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/753420/Dungreed/",
 	"tags": [
 		"Platformer",
 		"Action",

@@ -1,4 +1,5 @@
 {
+	"description": "DemonCrawl is a puzzle roguelite that combines the addicting gameplay of Minesweeper with hundreds of unique items, stages, and abilities!",
 	"estimated_time": "45m",
 	"id": "demoncrawl",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/1141220/DemonCrawl/",
 	"tags": [
 		"Puzzle",
 		"Adventure/RPG",

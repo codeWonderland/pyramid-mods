@@ -1,4 +1,5 @@
 {
+	"description": "Exit the Gungeon is a small, spin-off 'dungeon climber' immediately following the adventures of the misfit Gungeoneers.",
 	"estimated_time": "30m",
 	"id": "exit-the-gungeon",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/1209490/Exit_the_Gungeon/",
 	"tags": [
 		"Shooter",
 		"Platformer",

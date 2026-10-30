@@ -1,8 +1,9 @@
 {
+	"description": "This \"spaceship simulation roguelike-like\" allows you to take your ship and crew on an adventure through a randomly generated galaxy filled with glory and bitter defeat.",
 	"estimated_time": "1h30m",
 	"id": "ftl",
 	"is_free": false,
-	"name": "FTL",
+	"name": "FTL: Faster Than Light",
 	"objectives": {
 		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
 		"curse_count": 1,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/212680/FTL_Faster_Than_Light/",
 	"tags": [
 		"Strategy",
 		"Adventure/RPG"

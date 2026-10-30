@@ -1,4 +1,5 @@
 {
+	"description": "Control a car full of jerks as they explore cities, recruit weird people, rescue dogs, argue with each other, and face gigantic swarms of slow zombies. Randomly generated for a new story and rare events every time you play!",
 	"estimated_time": null,
 	"id": "death-road-to-canada",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/252610/Death_Road_to_Canada/",
 	"tags": [
 		"Action"
 	]

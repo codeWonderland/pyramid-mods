@@ -1,4 +1,5 @@
 {
+	"description": "Cornered with nowhere else to turn, can you escape the monster-filled mansion? Dead Estate is a gory, fast-paced, challenging roguelike shooter with a heavy emphasis on horror.",
 	"estimated_time": "30m",
 	"id": "dead-estate",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/1484720/Dead_Estate/",
 	"tags": [
 		"Dungeon Crawler",
 		"Action",

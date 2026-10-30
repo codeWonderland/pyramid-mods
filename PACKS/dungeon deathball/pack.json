@@ -1,12 +1,13 @@
 {
+	"description": "TACTICS, TERROR & TOUCHDOWNS. Turn-based roguelike meets arcade death-sport, where every dungeon is a unique gauntlet of brutal challenges. Can you survive the trials of Dungeon Deathball and win back your freedom?",
 	"estimated_time": "45m",
 	"id": "dungeon-deathball",
 	"is_free": false,
 	"name": "Dungeon Deathball",
 	"objectives": {
 		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
-		"curse_count": 0,
-		"has_curse": false,
+		"curse_count": 1,
+		"has_curse": true,
 		"primary_count": 5,
 		"secondary_count": 9,
 		"versus_tertiary": "Highest score at end of run"
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/861330/Dungeon_Deathball/",
 	"tags": [
 		"Tactics",
 		"Sports"
