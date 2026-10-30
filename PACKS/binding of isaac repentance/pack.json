@@ -1,4 +1,5 @@
 {
+	"description": "The most recent massive expansion to The Binding of Isaac. This deck focuses on tainted characters and gameplay elements from the third DLC.",
 	"estimated_time": "45m",
 	"id": "binding-of-isaac-repentance",
 	"is_free": false,
@@ -47,6 +48,7 @@
 			}
 		]
 	},
+	"store_url": "https://store.steampowered.com/app/1426300/The_Binding_of_Isaac_Repentance/",
 	"tags": [
 		"Dungeon Crawler",
 		"Bullet Hell"

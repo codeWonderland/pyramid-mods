@@ -1,4 +1,5 @@
 {
+	"description": "There's a heck of a lot of mods for The Binding of Isaac... let's create some challenges for a few of our favorites.",
 	"estimated_time": "45m",
 	"id": "binding-of-isaac-modded",
 	"is_free": false,
@@ -26,6 +27,7 @@
 			}
 		]
 	},
+	"store_url": "https://store.steampowered.com/app/570660/The_Binding_of_Isaac_Afterbirth/",
 	"tags": [
 		"Dungeon Crawler",
 		"Game Mods",
