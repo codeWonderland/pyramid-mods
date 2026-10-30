@@ -1,4 +1,5 @@
 {
+	"description": "Defend against waves of alien monsters in this unique roguelike action miner. Dig for resources, collect useful gadgets, and upgrade equipment to increase odds of survival – just hurry back before your dome is destroyed!",
 	"estimated_time": "40m",
 	"id": "dome-keeper",
 	"is_free": false,
@@ -35,6 +36,7 @@
 			}
 		]
 	},
+	"store_url": "https://store.steampowered.com/app/1637320/Dome_Keeper/",
 	"tags": [
 		"Action"
 	]

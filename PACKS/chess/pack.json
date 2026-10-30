@@ -1,21 +1,23 @@
 {
+	"description": "Brother, it's chess. I can't help you if you don't know what chess is.",
 	"estimated_time": "15m",
 	"id": "chess",
 	"is_free": true,
 	"name": "Chess",
 	"objectives": {
-		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"co_op_rules": "Play hand and brain chess if 2P co-op. If 3P, have two brains and one hand. If 4P, have two brain and two hand and alternate moves.",
 		"curse_count": 1,
 		"has_curse": true,
 		"primary_count": 10,
 		"secondary_count": 8,
-		"versus_tertiary": "Play against each other"
+		"versus_tertiary": "Play against each other, each drawing a different secondary. The primary objectives are not needed."
 	},
 	"special_challenges": {
 		"creator_available": false,
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://www.chess.com/",
 	"tags": [
 		"Puzzle",
 		"Tactics"

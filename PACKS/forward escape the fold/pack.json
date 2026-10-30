@@ -1,4 +1,5 @@
 {
+	"description": "FORWARD: Escape the Fold - Ultimate Edition was created to be the perfect bitesized roguelike dungeon crawler. Choose your champion and face a relentless crawl through the card-based dungeons, collect items to power your abilities and defeat the gruesome monsters facing you. But keep going FORWARD!",
 	"estimated_time": "20m",
 	"id": "forward-escape-the-fold",
 	"is_free": false,
@@ -13,7 +14,7 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
-		"developer_available": false,
+		"developer_available": true,
 		"entries": [
 			{
 				"contributor": {
@@ -35,6 +36,7 @@
 			}
 		]
 	},
+	"store_url": "https://store.steampowered.com/app/1766390/FORWARD_Escape_the_Fold_Ultimate_Edition/",
 	"tags": [
 		"Strategy"
 	]

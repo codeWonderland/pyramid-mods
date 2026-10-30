@@ -1,5 +1,6 @@
 {
-	"estimated_time": null,
+	"description": "Inhabit a deeply-simulated science fantasy world and chisel through layers of thousand-year-old civilizations. Build a character from over a hundred mutations and cybernetics. The award-winning sandbox roguelike & RPG full of robots, deep lore, and sentient plants.",
+	"estimated_time": "lol",
 	"id": "caves-of-qud",
 	"is_free": false,
 	"name": "Caves of Qud",
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/333640/Caves_of_Qud/",
 	"tags": [
 		"Adventure/RPG",
 		"Traditional Roguelike",

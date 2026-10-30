@@ -1,4 +1,5 @@
 {
+	"description": "Downwell is a curious game about a young person venturing down a well in search of untold treasures with only his Gunboots to protect him",
 	"estimated_time": "20m",
 	"id": "downwell",
 	"is_free": false,
@@ -7,8 +8,8 @@
 		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
 		"curse_count": 1,
 		"has_curse": true,
-		"primary_count": 16,
-		"secondary_count": 10,
+		"primary_count": 10,
+		"secondary_count": 0,
 		"versus_tertiary": "Most gems at end of run"
 	},
 	"special_challenges": {
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/360740/Downwell/",
 	"tags": [
 		"Platformer",
 		"Action",

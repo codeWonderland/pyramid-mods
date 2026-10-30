@@ -1,4 +1,5 @@
 {
+	"description": "Dead Cells is a roguelite, metroidvania inspired, action-platformer. You'll explore a sprawling, ever-changing castle... assuming you’re able to fight your way past its keepers in 2D souls-lite combat. No checkpoints. Kill, die, learn, repeat.",
 	"estimated_time": "45m",
 	"id": "dead-cells",
 	"is_free": false,
@@ -53,6 +54,7 @@
 			}
 		]
 	},
+	"store_url": "https://store.steampowered.com/app/588650/Dead_Cells/",
 	"tags": [
 		"Action",
 		"Dungeon Crawler",
