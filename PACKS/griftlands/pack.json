@@ -1,5 +1,6 @@
 {
-	"estimated_time": null,
+	"description": "https://store.steampowered.com/app/601840/Griftlands/",
+	"estimated_time": "1h30m",
 	"id": "griftlands",
 	"is_free": false,
 	"name": "Griftlands",
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/601840/Griftlands/",
 	"tags": [
 		"Deckbuilder",
 		"Strategy"

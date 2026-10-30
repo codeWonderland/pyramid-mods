@@ -1,12 +1,13 @@
 {
+	"description": "Inscryption is an inky black card-based odyssey that blends the deckbuilding roguelike, escape-room style puzzles, and psychological horror into a blood-laced smoothie. Darker still are the secrets inscrybed upon the cards... This deck is focused on Kaycee's mod, the roguelike mode within Inscryption.",
 	"estimated_time": "45m",
 	"id": "inscryption-kaycee-s-mod",
 	"is_free": false,
 	"name": "Inscryption Kaycee's Mod",
 	"objectives": {
 		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
-		"curse_count": 0,
-		"has_curse": false,
+		"curse_count": 1,
+		"has_curse": true,
 		"primary_count": 8,
 		"secondary_count": 12,
 		"versus_tertiary": "Fewest cards at end of run"
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/1092790/Inscryption/",
 	"tags": [
 		"Deckbuilder",
 		"Strategy"

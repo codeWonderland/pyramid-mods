@@ -1,4 +1,5 @@
 {
+	"description": "Hextraction is a free, open‑source, 3D‑printable board game created by Zack Freedman, where players place tiles and race a 10 mm steel ball down a modular hex‑grid board. This one does require access to a 3D printer and does not have an online application. Our developer g0m is super passionate about Hextraction so hit him up in the official Pyramid Discord if you're interested!",
 	"estimated_time": "15m",
 	"id": "hextraction",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://www.playhextraction.com/",
 	"tags": [
 		"Board Games",
 		"Puzzle",

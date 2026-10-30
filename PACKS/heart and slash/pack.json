@@ -1,4 +1,5 @@
 {
+	"description": "Fight as Heart, an innocent robot fighting to escape the grip of mindless machines in a future where humans are no more. A fast-paced 3D brawler with roguelike elements set in a colorful yet desolated world.",
 	"estimated_time": "1h",
 	"id": "heart-slash",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/326840/HeartSlash/",
 	"tags": [
 		"Dungeon Crawler",
 		"Action",

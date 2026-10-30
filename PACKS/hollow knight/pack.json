@@ -1,4 +1,5 @@
 {
+	"description": "Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style.",
 	"estimated_time": "1h",
 	"id": "hollow-knight",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/367520/Hollow_Knight/",
 	"tags": [
 		"Adventure/RPG",
 		"Dungeon Crawler",

@@ -1,14 +1,15 @@
 {
-	"estimated_time": null,
+	"description": "Demons from the collective subconcious are leaking into reality. Save the world from the curse of the Jabberwock in this wacky dicebuilding twinstick action roguelite! Gimmiko is currently a demo, so this deck is free for now!",
+	"estimated_time": "20m",
 	"id": "gimmiko",
-	"is_free": false,
+	"is_free": true,
 	"name": "Gimmiko",
 	"objectives": {
 		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
-		"curse_count": 2,
+		"curse_count": 1,
 		"has_curse": true,
 		"primary_count": 3,
-		"secondary_count": 12,
+		"secondary_count": 10,
 		"versus_tertiary": "Highest health remaining at end of run"
 	},
 	"special_challenges": {
@@ -44,6 +45,7 @@
 			}
 		]
 	},
+	"store_url": "https://store.steampowered.com/app/2101420/GIMMIKO/",
 	"tags": [
 		"Dice-builder",
 		"Action"

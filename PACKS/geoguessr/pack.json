@@ -1,4 +1,5 @@
 {
+	"description": "GeoGuessr is a geography video game where players attempt to identify locations from Google Street View imagery using visual clues.",
 	"estimated_time": "30m",
 	"id": "geoguessr",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://www.geoguessr.com/",
 	"tags": [
 		"Browser-based",
 		"Puzzle"

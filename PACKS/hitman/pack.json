@@ -1,4 +1,5 @@
 {
+	"description": "Enter the world of the ultimate assassin. HITMAN World of Assassination delivers the definitive stealth action experience, putting you in the shoes of Agent 47, a master assassin. Explore immersive locations, uncover hidden secrets, and eliminate targets with complete freedom of approach. This deck focuses on the roguelike mode, so knowledge of most maps is needed.",
 	"estimated_time": "30m",
 	"id": "hitman",
 	"is_free": false,
@@ -7,8 +8,8 @@
 		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
 		"curse_count": 1,
 		"has_curse": true,
-		"primary_count": 8,
-		"secondary_count": 8,
+		"primary_count": 10,
+		"secondary_count": 10,
 		"versus_tertiary": "Most optional objectives completed"
 	},
 	"special_challenges": {
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/1659040/HITMAN_World_of_Assassination/",
 	"tags": [
 		"Shooter",
 		"Strategy",

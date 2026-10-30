@@ -1,4 +1,5 @@
 {
+	"description": "Why have friends if not to play Golf... With Your Friends! Nothing is out of bounds as you take on courses filled with fast paced, exciting, simultaneous mini golf for up to 12 players!",
 	"estimated_time": "30m",
 	"id": "golf-with-your-friends",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/431240/Golf_With_Your_Friends/",
 	"tags": [
 		"Action",
 		"Sports",

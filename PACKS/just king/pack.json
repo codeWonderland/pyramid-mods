@@ -1,4 +1,5 @@
 {
+	"description": "Just King is an action auto-battler with roguelike elements. Assemble your party to venture into different lands fighting fearsome kings and their deadly armies. Use your loot to hire and upgrade mighty heroes... or the bard.",
 	"estimated_time": "30m",
 	"id": "just-king",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/1059980/Just_King/",
 	"tags": [
 		"Autobattler",
 		"Arena Shooter",
