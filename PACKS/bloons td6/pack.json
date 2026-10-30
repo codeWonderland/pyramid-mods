@@ -1,4 +1,5 @@
 {
+	"description": "The Bloons are back and better than ever! Get ready for a massive 3D tower defense game designed to give you hours and hours of the best strategy gaming available.",
 	"estimated_time": "30m",
 	"id": "bloons-td6",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/960090/Bloons_TD_6/",
 	"tags": [
 		"Strategy",
 		"Autobattler"

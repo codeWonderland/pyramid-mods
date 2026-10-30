@@ -1,5 +1,6 @@
 {
-	"estimated_time": null,
+	"description": "A roguelike deckbuilding tactics game that combines elements from 'Slay the Spire' and 'Into the Breach'. Play as a gladiator to survive. With roguelike deckbuilding and hex-based tactics, no longer bound by simple attack and defense. Make use of dodges and knockbacks to stay alive!",
+	"estimated_time": "1h30m",
 	"id": "alina-of-the-arena",
 	"is_free": false,
 	"name": "Alina of the Arena",
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/1668690/Alina_of_the_Arena/",
 	"tags": [
 		"Strategy",
 		"Deckbuilder"
