@@ -1,4 +1,5 @@
 {
+	"description": "Crypt of the NecroDancer is an award winning hardcore roguelike rhythm game. Move to the music and deliver beatdowns to the beat! Groove to the epic Danny Baranowsky soundtrack, or select songs from your own MP3 collection!",
 	"estimated_time": "15m",
 	"id": "crypt-of-the-necrodancer",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/",
 	"tags": [
 		"Rhythm",
 		"Action",

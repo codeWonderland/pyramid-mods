@@ -1,4 +1,5 @@
 {
+	"description": "As the Devil, command your minions to defeat the greedy adventurers! Build your team with over 240 minions and over 200 treasures, and discover various battle strategies. Enjoy the convenience of one-click auto battles!",
 	"estimated_time": "30m",
 	"id": "endgame-of-devil",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/2343600/Endgame_of_Devil/",
 	"tags": [
 		"Strategy",
 		"Arcade",

@@ -1,4 +1,5 @@
 {
+	"description": "This isn't a Steam game, this is a messed up amalgamation of trivia knowledge from Olexa's brain. Grab a pen and paper, or open up Notepad, then roll into this silly little knowledge puzzle.",
 	"estimated_time": "15m",
 	"id": "a-to-z-trivia",
 	"is_free": true,
@@ -7,9 +8,9 @@
 		"co_op_rules": "Fill your lists together!",
 		"curse_count": 1,
 		"has_curse": true,
-		"primary_count": 22,
-		"secondary_count": 7,
-		"versus_tertiary": "Compare words found to other players, whoever has the least matching words to others"
+		"primary_count": 11,
+		"secondary_count": 11,
+		"versus_tertiary": "Compare words found to other players, whoever has the least matching words to others or the most unique answers"
 	},
 	"special_challenges": {
 		"creator_available": false,

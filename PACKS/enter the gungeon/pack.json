@@ -1,4 +1,5 @@
 {
+	"description": "Enter the Gungeon is a bullet hell dungeon crawler following a band of misfits seeking to shoot, loot, dodge roll and table-flip their way to personal absolution by reaching the legendary Gungeon’s ultimate treasure: the gun that can kill the past.",
 	"estimated_time": "45m",
 	"id": "enter-the-gungeon",
 	"is_free": false,
@@ -8,7 +9,7 @@
 		"curse_count": 1,
 		"has_curse": true,
 		"primary_count": 8,
-		"secondary_count": 19,
+		"secondary_count": 17,
 		"versus_tertiary": "Most health [shields and hearts] at end of run"
 	},
 	"special_challenges": {
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/311690/Enter_the_Gungeon/",
 	"tags": [
 		"Dungeon Crawler",
 		"Action",

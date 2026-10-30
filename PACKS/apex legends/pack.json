@@ -1,4 +1,5 @@
 {
+	"description": "Apex Legends is the award-winning, free-to-play Hero Shooter from Respawn Entertainment. Master an ever-growing roster of legendary characters with powerful abilities, and experience strategic squad play and innovative gameplay in the next evolution of Hero Shooter and Battle Royale.",
 	"estimated_time": "30m",
 	"id": "apex-legends",
 	"is_free": true,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/1172470/Apex_Legends/",
 	"tags": [
 		"Shooter",
 		"Action",

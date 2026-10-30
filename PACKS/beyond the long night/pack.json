@@ -1,4 +1,5 @@
 {
+	"description": "Explore a whimsical underground world whilst being chased by a mysterious corrupting force in this charming twin-stick action roguelike! Befriend loveable characters, fend off enemies with chaotic abilities, and uncover the secrets of this subterranean kingdom caught in a time loop.",
 	"estimated_time": "30m",
 	"id": "beyond-the-long-night",
 	"is_free": false,
@@ -35,6 +36,7 @@
 			}
 		]
 	},
+	"store_url": "https://store.steampowered.com/app/1730080/Beyond_the_Long_Night/",
 	"tags": [
 		"Dungeon Crawler",
 		"Shooter",

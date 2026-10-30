@@ -1,4 +1,5 @@
 {
+	"description": "Start your own cult in a land of false prophets, venturing out into diverse and mysterious regions to build a loyal community of woodland Followers and spread your Word to become the one true cult.",
 	"estimated_time": "45m",
 	"id": "cult-of-the-lamb",
 	"is_free": false,
@@ -16,6 +17,7 @@
 		"developer_available": false,
 		"entries": []
 	},
+	"store_url": "https://store.steampowered.com/app/1313140/Cult_of_the_Lamb/",
 	"tags": [
 		"Dungeon Crawler",
 		"Bullet Hell"
