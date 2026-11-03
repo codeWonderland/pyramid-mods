@@ -14,27 +14,7 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
-		"developer_available": true,
-		"entries": [
-			{
-				"contributor": {
-					"handle": "@twotinydice",
-					"role": "Lead Dev"
-				},
-				"id": "forward-escape-the-fold-challenge-1",
-				"text": "Finish the run with a score of over 1000",
-				"type": "secondary"
-			},
-			{
-				"contributor": {
-					"handle": "@twotinydice",
-					"role": "Lead Dev"
-				},
-				"id": "forward-escape-the-fold-challenge-2",
-				"text": "Finish a level without being attacked [except for the boss]",
-				"type": "secondary"
-			}
-		]
+		"entries": []
 	},
 	"store_url": "https://store.steampowered.com/app/1766390/FORWARD_Escape_the_Fold_Ultimate_Edition/",
 	"tags": [

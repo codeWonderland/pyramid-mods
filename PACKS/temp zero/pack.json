@@ -13,27 +13,7 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
-		"developer_available": true,
-		"entries": [
-			{
-				"contributor": {
-					"handle": "@AlexandreKadri",
-					"role": "Lead Dev"
-				},
-				"id": "temp-zero-challenge-1",
-				"text": "From room 7 to 11, every dash should evade something.",
-				"type": "secondary"
-			},
-			{
-				"contributor": {
-					"handle": "@AlexandreKadri",
-					"role": "Lead Dev"
-				},
-				"id": "temp-zero-challenge-2",
-				"text": "Laser enemies should always be your last target.",
-				"type": "secondary"
-			}
-		]
+		"entries": []
 	},
 	"tags": [
 		"Rhythm",

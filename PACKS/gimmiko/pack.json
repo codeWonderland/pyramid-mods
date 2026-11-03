@@ -14,36 +14,7 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
-		"developer_available": true,
-		"entries": [
-			{
-				"contributor": {
-					"handle": "@tombdude",
-					"role": "Lead Dev"
-				},
-				"id": "gimmiko-challenge-1",
-				"text": "Before you leave Salty Caramel, always freeze the stock",
-				"type": "curse"
-			},
-			{
-				"contributor": {
-					"handle": "@tombdude",
-					"role": "Lead Dev"
-				},
-				"id": "gimmiko-challenge-2",
-				"text": "Complete a round of night mode solitaire",
-				"type": "secondary"
-			},
-			{
-				"contributor": {
-					"handle": "@tombdude",
-					"role": "Lead Dev"
-				},
-				"id": "gimmiko-challenge-3",
-				"text": "Visit the second secret shop and buy as many things as possible",
-				"type": "secondary"
-			}
-		]
+		"entries": []
 	},
 	"store_url": "https://store.steampowered.com/app/2101420/GIMMIKO/",
 	"tags": [

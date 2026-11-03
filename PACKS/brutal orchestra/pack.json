@@ -14,27 +14,7 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
-		"developer_available": true,
-		"entries": [
-			{
-				"contributor": {
-					"handle": "@ItsTheTalia",
-					"role": "Lead Designer"
-				},
-				"id": "brutal-orchestra-challenge-1",
-				"text": "Every time you take direct damage from an enemy for the first time in combat, you must call your dad and tell him you love him. You cannot elaborate further until you have finished the run",
-				"type": "secondary"
-			},
-			{
-				"contributor": {
-					"handle": "@nico_codrilo",
-					"role": "Lead Programmer"
-				},
-				"id": "brutal-orchestra-challenge-2",
-				"text": "Beat the final boss with a Mung in your party",
-				"type": "secondary"
-			}
-		]
+		"entries": []
 	},
 	"store_url": "https://store.steampowered.com/app/1734320/Brutal_Orchestra/",
 	"tags": [

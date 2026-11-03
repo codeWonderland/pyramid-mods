@@ -14,27 +14,7 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
-		"developer_available": true,
-		"entries": [
-			{
-				"contributor": {
-					"handle": "@NoisyHeadGames",
-					"role": "Lead Dev"
-				},
-				"id": "beyond-the-long-night-challenge-1",
-				"text": "Visit every room on the map",
-				"type": "secondary"
-			},
-			{
-				"contributor": {
-					"handle": "@NoisyHeadGames",
-					"role": "Lead Dev"
-				},
-				"id": "beyond-the-long-night-challenge-2",
-				"text": "Visit the Annoying Child in the Strange Dimension",
-				"type": "secondary"
-			}
-		]
+		"entries": []
 	},
 	"store_url": "https://store.steampowered.com/app/1730080/Beyond_the_Long_Night/",
 	"tags": [

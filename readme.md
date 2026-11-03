@@ -7,7 +7,7 @@ All images should be 700x1000px to ensure that file sizes don't get too large. I
 ## Pack Metadata
 Each pack folder may include a `pack.json` describing the game alongside its card images. The game reads `tags` for the draft screen's filters, and the rest for the Library.
 
-**Edit it in the mod manager's pack editor** (in the game, or the [standalone mod manager](https://github.com/codeWonderland/official-pyramid-mods-manager)), which is where these records are maintained. Its Details section covers the game name, price, time per run, versus and co-op rules, and dev and creator challenges. Saving fills in the card counts, `developer_available` / `creator_available` and ids from the pack itself, so they never need typing. Fields the editor doesn't show are kept.
+**Edit it in the mod manager's pack editor** (in the game, or the [standalone mod manager](https://github.com/codeWonderland/official-pyramid-mods-manager)), which is where these records are maintained. Its Details section covers the game name, price, time per run, versus and co-op rules, and creator challenges. Saving fills in the card counts, `creator_available` and ids from the pack itself, so they never need typing. Fields the editor doesn't show are kept.
 
 ```json
 {
@@ -25,14 +25,13 @@ Each pack folder may include a `pack.json` describing the game alongside its car
 		"co_op_rules": "Fill your lists together!"
 	},
 	"special_challenges": {
-		"developer_available": false,
 		"creator_available": false,
 		"entries": []
 	}
 }
 ```
 
-`tags` use the categories in `categories.json` (Action, Deckbuilder, Bullet Hell, ...). A challenge whose contributor's `role` is `Creator` counts as a creator challenge; any other role counts as the game's developers. Every field is optional, and a pack without a `pack.json` still loads normally, just without tags.
+`tags` use the categories in `categories.json` (Action, Deckbuilder, Bullet Hell, ...). Special challenges are creator challenges: each entry's contributor has the `role` `Creator`. Every field is optional, and a pack without a `pack.json` still loads normally, just without tags.
 
 ## Renaming a Pack
 Players' saves, favorites and library marks remember packs by folder name. When a pack folder is renamed, add the old and new names to `renames.json` at the root, and the game will follow the rename:
