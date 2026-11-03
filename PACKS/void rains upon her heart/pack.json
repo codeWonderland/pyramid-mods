@@ -13,29 +13,7 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
-		"developer_available": true,
-		"entries": [
-			{
-				"contributor": {
-					"handle": "@DeveralsGames",
-					"role": "Lead Developer"
-				},
-				"id": "the-void-rains-upon-her-heart-challenge-1",
-				"source_game_name": "Void Rains Upon Her Heart",
-				"text": "Play on Altered Story. End a run with no power gifts, by giving them all away before the final boss",
-				"type": "secondary"
-			},
-			{
-				"contributor": {
-					"handle": "@DeveralsGames",
-					"role": "Lead Developer"
-				},
-				"id": "the-void-rains-upon-her-heart-challenge-2",
-				"source_game_name": "Void Rains Upon Her Heart",
-				"text": "Play on Altered Story. Complete a run with at least 21 total battles by extending the run with events",
-				"type": "secondary"
-			}
-		]
+		"entries": []
 	},
 	"tags": [
 		"Dating Sim",

@@ -13,17 +13,7 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
-		"developer_available": true,
 		"entries": [
-			{
-				"contributor": {
-					"handle": "@terrycavanagh",
-					"role": "Lead Dev"
-				},
-				"id": "vvvvvv-challenge-1",
-				"text": "Additionally, play the player level \"Dimension 333333\" by Sendy",
-				"type": "secondary"
-			},
 			{
 				"contributor": {
 					"handle": "TeqieLemon",
