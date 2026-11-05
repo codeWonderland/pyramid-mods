@@ -13,6 +13,7 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
+		"developer_available": false,
 		"entries": []
 	},
 	"tags": [
@@ -20,6 +21,7 @@
 		"Shooter",
 		"Action",
 		"Adventure/RPG",
-		"Bullet Hell"
+		"Bullet Hell",
+		"Roguelike"
 	]
 }

@@ -14,12 +14,15 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
+		"developer_available": false,
 		"entries": []
 	},
 	"store_url": "https://store.steampowered.com/app/2343600/Endgame_of_Devil/",
 	"tags": [
 		"Strategy",
 		"Arcade",
-		"Autobattler"
+		"Autobattler",
+		"Roguelike",
+		"Gambling"
 	]
 }

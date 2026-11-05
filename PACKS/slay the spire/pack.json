@@ -13,6 +13,7 @@
 	},
 	"special_challenges": {
 		"creator_available": true,
+		"developer_available": false,
 		"entries": [
 			{
 				"contributor": {
@@ -27,6 +28,7 @@
 	},
 	"tags": [
 		"Deckbuilder",
-		"Strategy"
+		"Strategy",
+		"Roguelike"
 	]
 }

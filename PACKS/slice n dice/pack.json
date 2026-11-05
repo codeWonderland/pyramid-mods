@@ -5,18 +5,20 @@
 	"name": "Slice & Dice",
 	"objectives": {
 		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
-		"curse_count": 0,
-		"has_curse": false,
+		"curse_count": 1,
+		"has_curse": true,
 		"primary_count": 6,
 		"secondary_count": 6,
 		"versus_tertiary": "legit got no clue on this one"
 	},
 	"special_challenges": {
 		"creator_available": false,
+		"developer_available": false,
 		"entries": []
 	},
 	"tags": [
 		"Dice-builder",
-		"Strategy"
+		"Strategy",
+		"Roguelike"
 	]
 }

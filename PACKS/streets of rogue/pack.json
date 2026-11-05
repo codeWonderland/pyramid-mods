@@ -13,9 +13,11 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
+		"developer_available": false,
 		"entries": []
 	},
 	"tags": [
-		"Action"
+		"Action",
+		"Roguelike"
 	]
 }

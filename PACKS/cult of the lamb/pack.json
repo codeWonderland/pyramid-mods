@@ -14,11 +14,13 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
+		"developer_available": false,
 		"entries": []
 	},
 	"store_url": "https://store.steampowered.com/app/1313140/Cult_of_the_Lamb/",
 	"tags": [
 		"Dungeon Crawler",
-		"Bullet Hell"
+		"Bullet Hell",
+		"Roguelike"
 	]
 }

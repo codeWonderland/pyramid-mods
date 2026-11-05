@@ -1,0 +1,22 @@
+{
+	"description": "A sci-fi roguelike deckbuilder with a deep new single-axis spin on tactics games! Dodge missiles, line up your cannons, and blast 'em out of the sky... Then get to the bottom of these time loops, before it's too late!",
+	"estimated_time": "45m",
+	"id": "cobalt-core",
+	"is_free": false,
+	"name": "Cobalt Core",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 2,
+		"has_curse": true,
+		"primary_count": 11,
+		"secondary_count": 6,
+		"versus_tertiary": "Least cards at end of run"
+	},
+	"store_url": "https://store.steampowered.com/app/2179850/Cobalt_Core/",
+	"tags": [
+		"Roguelike",
+		"Deckbuilder",
+		"Strategy",
+		"Tactics"
+	]
+}

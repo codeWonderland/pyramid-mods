@@ -14,12 +14,14 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
+		"developer_available": false,
 		"entries": []
 	},
 	"store_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2981496162",
 	"tags": [
 		"Game Mods",
 		"Adventure/RPG",
-		"Strategy"
+		"Strategy",
+		"Roguelike"
 	]
 }

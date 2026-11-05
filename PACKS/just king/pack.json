@@ -14,12 +14,14 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
+		"developer_available": false,
 		"entries": []
 	},
 	"store_url": "https://store.steampowered.com/app/1059980/Just_King/",
 	"tags": [
 		"Autobattler",
 		"Arena Shooter",
-		"Strategy"
+		"Strategy",
+		"Roguelike"
 	]
 }
