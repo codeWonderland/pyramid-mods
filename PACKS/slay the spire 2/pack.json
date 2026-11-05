@@ -1,0 +1,20 @@
+{
+	"description": "The iconic roguelike deckbuilder returns. Craft a unique deck, encounter bizarre creatures, and discover relics of immense power in Slay the Spire 2!",
+	"estimated_time": "45m",
+	"id": "slay-the-spire-2",
+	"is_free": false,
+	"name": "Slay the Spire 2",
+	"objectives": {
+		"co_op_rules": "Play co-op! Each draw a primary, then you must both complete a different secondary objective.",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 5,
+		"secondary_count": 8,
+		"versus_tertiary": "Most badges at end of run"
+	},
+	"store_url": "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/",
+	"tags": [
+		"Roguelike",
+		"Deckbuilder"
+	]
+}
