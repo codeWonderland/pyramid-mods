@@ -1,0 +1,21 @@
+{
+	"description": "Deck-building meets monster catching in this turn-based roguelike. Recruit enemy cards to your party as you dive into the depths of the abyss. Will you kill them or will you tame them?",
+	"estimated_time": "45m",
+	"id": "decktamer",
+	"is_free": false,
+	"name": "Decktamer",
+	"objectives": {
+		"co_op_rules": "Screen share and alternate making decisions for each battle.",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 9,
+		"secondary_count": 12,
+		"versus_tertiary": "Highest Score"
+	},
+	"store_url": "https://store.steampowered.com/app/2870340/Decktamer/",
+	"tags": [
+		"Roguelike",
+		"Deckbuilder",
+		"Strategy"
+	]
+}
