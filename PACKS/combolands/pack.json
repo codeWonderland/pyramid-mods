@@ -1,0 +1,21 @@
+{
+	"description": "A mini citybuilding roguelike. Place buildings, stack combos, and master deep strategy in short bursts to create a tiny thriving metropolis!",
+	"estimated_time": "45m",
+	"id": "combolands",
+	"is_free": false,
+	"name": "Combolands",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 1,
+		"has_curse": true,
+		"primary_count": 7,
+		"secondary_count": 11,
+		"versus_tertiary": "Highest Score at end of run (no endless)"
+	},
+	"store_url": "https://store.steampowered.com/app/4075620/Combolands_Roguelike_Citybuilder/",
+	"tags": [
+		"Roguelike",
+		"City Builder",
+		"Rent-like"
+	]
+}
