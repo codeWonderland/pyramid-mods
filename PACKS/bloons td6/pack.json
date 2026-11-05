@@ -14,11 +14,13 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
+		"developer_available": false,
 		"entries": []
 	},
 	"store_url": "https://store.steampowered.com/app/960090/Bloons_TD_6/",
 	"tags": [
 		"Strategy",
-		"Autobattler"
+		"Autobattler",
+		"Tower Defense"
 	]
 }

@@ -14,10 +14,12 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
+		"developer_available": false,
 		"entries": []
 	},
 	"store_url": "https://store.steampowered.com/app/1766390/FORWARD_Escape_the_Fold_Ultimate_Edition/",
 	"tags": [
-		"Strategy"
+		"Strategy",
+		"Roguelike"
 	]
 }

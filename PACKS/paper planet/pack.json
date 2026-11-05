@@ -13,10 +13,12 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
+		"developer_available": false,
 		"entries": []
 	},
 	"tags": [
 		"Action",
-		"Bullet Hell"
+		"Bullet Hell",
+		"Roguelike"
 	]
 }

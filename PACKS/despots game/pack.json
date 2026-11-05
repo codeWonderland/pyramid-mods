@@ -14,6 +14,7 @@
 	},
 	"special_challenges": {
 		"creator_available": true,
+		"developer_available": false,
 		"entries": [
 			{
 				"contributor": {
@@ -38,6 +39,7 @@
 	"store_url": "https://store.steampowered.com/app/1227280/Despots_Game_Dystopian_Battle_Simulator/",
 	"tags": [
 		"Autobattler",
-		"Strategy"
+		"Strategy",
+		"Roguelike"
 	]
 }

@@ -14,6 +14,7 @@
 	},
 	"special_challenges": {
 		"creator_available": false,
+		"developer_available": false,
 		"entries": []
 	},
 	"store_url": "https://store.steampowered.com/app/1209490/Exit_the_Gungeon/",
@@ -21,6 +22,7 @@
 		"Shooter",
 		"Platformer",
 		"Bullet Hell",
-		"Action"
+		"Action",
+		"Roguelike"
 	]
 }
