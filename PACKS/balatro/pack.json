@@ -1,0 +1,21 @@
+{
+	"description": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
+	"estimated_time": "35m",
+	"id": "balatro",
+	"is_free": false,
+	"name": "Balatro",
+	"objectives": {
+		"co_op_rules": "Flip primary objectives equal to the # of players, everyone must complete a primary objective with the flipped secondary objective",
+		"curse_count": 2,
+		"has_curse": true,
+		"primary_count": 9,
+		"secondary_count": 11,
+		"versus_tertiary": "Best hand at end of run"
+	},
+	"store_url": "https://store.steampowered.com/app/2379780/Balatro/",
+	"tags": [
+		"Roguelike",
+		"Deckbuilder",
+		"Gambling"
+	]
+}
