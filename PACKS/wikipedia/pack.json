@@ -8,11 +8,12 @@
 		"curse_count": 0,
 		"has_curse": false,
 		"primary_count": 18,
-		"secondary_count": 16,
+		"secondary_count": 15,
 		"versus_tertiary": "Fewest clicks to reach location"
 	},
 	"special_challenges": {
 		"creator_available": false,
+		"developer_available": false,
 		"entries": []
 	},
 	"tags": [
